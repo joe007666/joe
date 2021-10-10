@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/joe/cam_test/build/realsense_camera_msgs/librealsense_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" "TARGETS" "realsense_camera_msgs__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

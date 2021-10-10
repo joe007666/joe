@@ -1,0 +1,15 @@
+Performing C++ SOURCE FILE Test LIBCODY_CXX_HAS_STDLIB_FLAG failed with the following output:
+Change Dir: /home/joe/cam_test/build/libcody/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53f14/fast && /usr/bin/make -f CMakeFiles/cmTC_53f14.dir/build.make CMakeFiles/cmTC_53f14.dir/build
+make[1]: Entering directory '/home/joe/cam_test/build/libcody/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53f14.dir/src.cxx.o
+/usr/bin/c++    -DLIBCODY_CXX_HAS_STDLIB_FLAG   -stdlib=libc++ -o CMakeFiles/cmTC_53f14.dir/src.cxx.o -c /home/joe/cam_test/build/libcody/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-stdlib=libc++'
+make[1]: *** [CMakeFiles/cmTC_53f14.dir/build.make:66: CMakeFiles/cmTC_53f14.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/joe/cam_test/build/libcody/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_53f14/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

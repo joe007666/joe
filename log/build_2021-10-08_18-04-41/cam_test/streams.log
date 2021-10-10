@@ -1,0 +1,30 @@
+[0.024s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.063s] [35m[1mScanning dependencies of target cam_test[0m
+[0.082s] [ 50%] Built target armor_detector_node
+[0.108s] [ 75%] [32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o[0m
+[1.653s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:33:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kshow_image_publisher_[m[K’ does not name a type
+[1.654s]    33 |       [01;31m[Kshow_image_publisher_[m[K = image_transport::create_publisher(this, "show_image");
+[1.654s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.654s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:134:22:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[1.654s]   134 |                      [01;31m[Kauto[m[K show_image_msg = cv_bridge::CvImage(img_msg_raw->header, "rgb8", originImage).toImageMsg();
+[1.654s]       |                      [01;31m[K^~~~[m[K
+[1.660s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:135:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kshow_image_publisher_[m[K’ does not name a type
+[1.660s]   135 |                      [01;31m[Kshow_image_publisher_[m[K.publish(show_image_msg);
+[1.660s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.677s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::imageProducer()[m[K’:
+[1.677s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:73:40:[m[K [01;31m[Kerror: [m[K‘[01m[KCameraParam[m[K’ has not been declared
+[1.677s]    73 |         CameraSetExposureTime(hCamera, [01;31m[KCameraParam[m[K::exposure);
+[1.677s]       |                                        [01;31m[K^~~~~~~~~~~[m[K
+[1.685s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:122:18:[m[K [01;31m[Kerror: [m[K‘[01m[K_framesbuffer[m[K’ was not declared in this scope
+[1.685s]   122 |                  [01;31m[K_framesbuffer[m[K.push(
+[1.685s]       |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[1.687s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:123:25:[m[K [01;31m[Kerror: [m[K‘[01m[KFrame[m[K’ was not declared in this scope
+[1.687s]   123 |                         [01;31m[KFrame[m[K{startTime, timeStamp, CameraTimeStamp, vision_pitch, vision_yaw, outputImage});
+[1.687s]       |                         [01;31m[K^~~~~[m[K
+[1.687s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:97:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtimeStamp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.688s]    97 |                 double [01;35m[KtimeStamp[m[K = (static_cast<std::chrono::duration<double, std::milli>>(
+[1.688s]       |                        [01;35m[K^~~~~~~~~[m[K
+[2.381s] make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1
+[2.382s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2
+[2.382s] make: *** [Makefile:141: all] Error 2
+[2.385s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12

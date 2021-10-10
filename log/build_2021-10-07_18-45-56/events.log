@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000725] (CAM_TEST) JobQueued: {'identifier': 'CAM_TEST', 'dependencies': OrderedDict()}
+[0.000784] (CAM_TEST) JobStarted: {'identifier': 'CAM_TEST'}
+[0.007881] (CAM_TEST) JobProgress: {'identifier': 'CAM_TEST', 'progress': 'cmake'}
+[0.008318] (CAM_TEST) Command: {'cmd': ['/usr/bin/cmake', '/home/joe/cam_test', '-DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/CAM_TEST'], 'cwd': '/home/joe/cam_test/build/CAM_TEST', 'env': OrderedDict([('USER', 'joe'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joe'), ('OLDPWD', '/home/joe'), ('LESS', '-R'), ('ZSH', '/home/joe/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/joe/cam_test/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joe'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('NAME', 'LAPTOP-K888OCOC'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/stan/AppData/Local/Microsoft/WindowsApps:/mnt/c/vscode/Microsoft VS Code/bin'), ('WT_SESSION', '6bde64ef-e6ff-4688-8cae-2bb725f01482'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/joe/cam_test/build/CAM_TEST'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.066519] (CAM_TEST) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.099654] (-) TimerEvent: {}
+[0.136714] (CAM_TEST) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.160901] (CAM_TEST) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199802] (-) TimerEvent: {}
+[0.217317] (CAM_TEST) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.217886] (CAM_TEST) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.274528] (CAM_TEST) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.282175] (CAM_TEST) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.282408] (CAM_TEST) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.284117] (CAM_TEST) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299953] (-) TimerEvent: {}
+[0.348140] (CAM_TEST) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.348765] (CAM_TEST) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400075] (-) TimerEvent: {}
+[0.412798] (CAM_TEST) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.420801] (CAM_TEST) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.421113] (CAM_TEST) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.422331] (CAM_TEST) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.437500] (CAM_TEST) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.437645] (CAM_TEST) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500221] (-) TimerEvent: {}
+[0.551880] (CAM_TEST) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.600377] (-) TimerEvent: {}
+[0.607555] (CAM_TEST) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.611248] (CAM_TEST) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.700539] (-) TimerEvent: {}
+[0.800927] (-) TimerEvent: {}
+[0.873307] (CAM_TEST) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.901040] (-) TimerEvent: {}
+[1.001356] (-) TimerEvent: {}
+[1.101707] (-) TimerEvent: {}
+[1.127064] (CAM_TEST) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.201828] (-) TimerEvent: {}
+[1.302233] (-) TimerEvent: {}
+[1.402544] (-) TimerEvent: {}
+[1.502923] (-) TimerEvent: {}
+[1.588139] (CAM_TEST) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.603022] (-) TimerEvent: {}
+[1.623673] (CAM_TEST) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.624528] (CAM_TEST) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.625166] (CAM_TEST) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.683973] (CAM_TEST) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.684160] (CAM_TEST) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.703220] (-) TimerEvent: {}
+[1.743256] (CAM_TEST) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.743509] (CAM_TEST) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.792977] (CAM_TEST) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.793166] (CAM_TEST) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.803352] (-) TimerEvent: {}
+[1.848495] (CAM_TEST) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.849312] (CAM_TEST) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.903540] (-) TimerEvent: {}
+[1.944143] (CAM_TEST) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[1.981347] (CAM_TEST) StdoutLine: {'line': b'-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.992571] (CAM_TEST) StdoutLine: {'line': b'-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[2.003626] (-) TimerEvent: {}
+[2.103938] (-) TimerEvent: {}
+[2.204270] (-) TimerEvent: {}
+[2.304676] (-) TimerEvent: {}
+[2.311479] (CAM_TEST) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[2.327950] (CAM_TEST) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.360199] (CAM_TEST) StderrLine: {'line': b'WARNING: Package name "CAM_TEST" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[2.374020] (CAM_TEST) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.377897] (CAM_TEST) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.378122] (CAM_TEST) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/joe/cam_test/include\n'}
+[2.378175] (CAM_TEST) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.381813] (CAM_TEST) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.381966] (CAM_TEST) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.382635] (CAM_TEST) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.383863] (CAM_TEST) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.384591] (CAM_TEST) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.388203] (CAM_TEST) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.388260] (CAM_TEST) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.388925] (CAM_TEST) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.390633] (CAM_TEST) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.391875] (CAM_TEST) StderrLine: {'line': b'CMake Error at CMakeLists.txt:27 (add_library):\n'}
+[2.391986] (CAM_TEST) StderrLine: {'line': b'  Cannot find source file:\n'}
+[2.392034] (CAM_TEST) StderrLine: {'line': b'\n'}
+[2.392075] (CAM_TEST) StderrLine: {'line': b'    src/cam_pub.cpp\n'}
+[2.392115] (CAM_TEST) StderrLine: {'line': b'\n'}
+[2.392155] (CAM_TEST) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[2.392195] (CAM_TEST) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[2.392234] (CAM_TEST) StderrLine: {'line': b'\n'}
+[2.392272] (CAM_TEST) StderrLine: {'line': b'\n'}
+[2.392557] (CAM_TEST) StderrLine: {'line': b'CMake Error at CMakeLists.txt:27 (add_library):\n'}
+[2.392645] (CAM_TEST) StderrLine: {'line': b'  No SOURCES given to target: CAM_TEST\n'}
+[2.392690] (CAM_TEST) StderrLine: {'line': b'\n'}
+[2.392729] (CAM_TEST) StderrLine: {'line': b'\n'}
+[2.392769] (CAM_TEST) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[2.398871] (CAM_TEST) CommandEnded: {'returncode': 1}
+[2.404897] (-) TimerEvent: {}
+[2.413790] (CAM_TEST) JobEnded: {'identifier': 'CAM_TEST', 'rc': 1}
+[2.424272] (-) EventReactorShutdown: {}

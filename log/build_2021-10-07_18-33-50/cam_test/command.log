@@ -1,0 +1,2 @@
+Invoking command in '/home/joe/cam_test/build/cam_test': /usr/bin/cmake /home/joe/cam_test -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cam_test
+Invoked command in '/home/joe/cam_test/build/cam_test' returned '1': /usr/bin/cmake /home/joe/cam_test -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cam_test

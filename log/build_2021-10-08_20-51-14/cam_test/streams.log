@@ -1,0 +1,28 @@
+[0.025s] Invoking command in '/home/joe/cam_test/build/cam_test': /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.072s] [35m[1mScanning dependencies of target cam_test[0m
+[0.095s] [ 50%] Built target armor_detector_node
+[0.111s] [ 75%] [32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o[0m
+[0.276s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:1:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+[0.277s]     1 | #ifndef IMAGETRANSPORT_H
+[0.277s]       | 
+[0.277s] In file included from [01m[K/home/joe/cam_test/src/cam_pub.cpp:5[m[K:
+[0.277s] [01m[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+[0.277s]    41 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[0.277s]       |                                                                                         [01;36m[K^[m[K
+[2.123s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:40:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kshow_image_publisher_[m[K’ does not name a type
+[2.123s]    40 |   [01;31m[Kshow_image_publisher_[m[K = image_transport::create_publisher(this, "show_image");
+[2.123s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.123s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:140:22:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[2.123s]   140 |                      [01;31m[Kauto[m[K show_image_msg = cv_bridge::CvImage(img_msg_raw->header, "rgb8", originImage).toImageMsg();
+[2.123s]       |                      [01;31m[K^~~~[m[K
+[2.130s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:141:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kshow_image_publisher_[m[K’ does not name a type
+[2.130s]   141 |                      [01;31m[Kshow_image_publisher_[m[K.publish(show_image_msg);
+[2.130s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.156s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::imageProducer()[m[K’:
+[2.156s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:104:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtimeStamp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.156s]   104 |                 double [01;35m[KtimeStamp[m[K = (static_cast<std::chrono::duration<double, std::milli>>(
+[2.157s]       |                        [01;35m[K^~~~~~~~~[m[K
+[3.257s] make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1
+[3.257s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2
+[3.257s] make: *** [Makefile:141: all] Error 2
+[3.261s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '2': /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12

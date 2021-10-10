@@ -1,0 +1,13 @@
+/home/joe/cam_test/build/zlib/CMakeFiles/install/local.dir
+/home/joe/cam_test/build/zlib/CMakeFiles/install.dir
+/home/joe/cam_test/build/zlib/CMakeFiles/list_install_components.dir
+/home/joe/cam_test/build/zlib/CMakeFiles/rebuild_cache.dir
+/home/joe/cam_test/build/zlib/CMakeFiles/edit_cache.dir
+/home/joe/cam_test/build/zlib/CMakeFiles/test.dir
+/home/joe/cam_test/build/zlib/CMakeFiles/install/strip.dir
+/home/joe/cam_test/build/zlib/CMakeFiles/example64.dir
+/home/joe/cam_test/build/zlib/CMakeFiles/minigzip.dir
+/home/joe/cam_test/build/zlib/CMakeFiles/example.dir
+/home/joe/cam_test/build/zlib/CMakeFiles/zlibstatic.dir
+/home/joe/cam_test/build/zlib/CMakeFiles/minigzip64.dir
+/home/joe/cam_test/build/zlib/CMakeFiles/zlib.dir

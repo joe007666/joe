@@ -1,0 +1,45 @@
+[0.011s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joe/cam_test -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cam_test
+[0.019s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.033s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.147s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.199s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.101s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.134s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.135s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.230s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.268s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.278s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.602s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.646s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.652s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.652s] -- Configured cppcheck include dirs: /home/joe/cam_test/include
+[1.652s] -- Configured cppcheck exclude dirs and/or files: 
+[1.658s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.658s] -- Configured cpplint exclude dirs and/or files: 
+[1.658s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.660s] -- Added test 'lint_cmake' to check CMake code style
+[1.661s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.667s] -- Added test 'uncrustify' to check C / C++ code style
+[1.667s] -- Configured uncrustify additional arguments: 
+[1.668s] -- Added test 'xmllint' to check XML markup files
+[1.670s] -- Configuring done
+[1.703s] -- Generating done
+[1.704s] -- Build files have been written to: /home/joe/cam_test/build/cam_test
+[1.710s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joe/cam_test -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cam_test
+[1.713s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[1.740s] [35m[1mScanning dependencies of target armor_detector_node[0m
+[1.740s] [35m[1mScanning dependencies of target cam_test[0m
+[1.793s] [ 25%] [32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o[0m
+[1.798s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KCamera/CameraApi.h: No such file or directory
+[1.798s]     1 | #include [01;31m[K<Camera/CameraApi.h>[m[K
+[1.798s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.798s] compilation terminated.
+[1.799s] make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1
+[1.799s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2
+[1.799s] make[1]: *** Waiting for unfinished jobs....
+[1.803s] [ 50%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o[0m
+[3.136s] [ 75%] [32m[1mLinking CXX executable armor_detector_node[0m
+[3.251s] [ 75%] Built target armor_detector_node
+[3.252s] make: *** [Makefile:141: all] Error 2
+[3.253s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12

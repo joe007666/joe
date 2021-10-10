@@ -1,0 +1,15 @@
+WARNING: Package name "CAM_TEST" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+CMake Error at CMakeLists.txt:27 (add_library):
+  Cannot find source file:
+
+    src/cam_pub.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:27 (add_library):
+  No SOURCES given to target: CAM_TEST
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

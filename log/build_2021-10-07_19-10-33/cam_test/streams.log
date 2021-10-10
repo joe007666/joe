@@ -1,0 +1,41 @@
+[0.009s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joe/cam_test -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cam_test
+[0.020s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.034s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.143s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.193s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.195s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.131s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.131s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.222s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.256s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.265s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.576s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.617s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.622s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.622s] -- Configured cppcheck include dirs: /home/joe/cam_test/include
+[1.622s] -- Configured cppcheck exclude dirs and/or files: 
+[1.627s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.627s] -- Configured cpplint exclude dirs and/or files: 
+[1.628s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.629s] -- Added test 'lint_cmake' to check CMake code style
+[1.631s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.635s] -- Added test 'uncrustify' to check C / C++ code style
+[1.635s] -- Configured uncrustify additional arguments: 
+[1.635s] -- Added test 'xmllint' to check XML markup files
+[1.637s] -- Configuring done
+[1.638s] CMake Error at CMakeLists.txt:27 (add_library):
+[1.638s]   Cannot find source file:
+[1.638s] 
+[1.638s]     src/cam_pub.cpp
+[1.638s] 
+[1.638s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[1.638s]   .hpp .hxx .in .txx
+[1.638s] 
+[1.638s] 
+[1.639s] CMake Error at CMakeLists.txt:27 (add_library):
+[1.639s]   No SOURCES given to target: cam_test
+[1.639s] 
+[1.639s] 
+[1.639s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.643s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joe/cam_test -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cam_test

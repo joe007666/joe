@@ -1,0 +1,52 @@
+[0.128s] Invoking command in '/home/joe/cam_test/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/joe/cpp_pubsub -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cpp_pubsub
+[0.192s] -- The C compiler identification is GNU 9.3.0
+[0.192s] -- The CXX compiler identification is GNU 9.3.0
+[0.193s] -- Check for working C compiler: /usr/bin/cc
+[0.257s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.264s] -- Detecting C compiler ABI info
+[0.347s] -- Detecting C compiler ABI info - done
+[0.363s] -- Detecting C compile features
+[0.376s] -- Detecting C compile features - done
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++
+[0.479s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.479s] -- Detecting CXX compiler ABI info
+[0.672s] -- Detecting CXX compiler ABI info - done
+[0.686s] -- Detecting CXX compile features
+[0.687s] -- Detecting CXX compile features - done
+[0.689s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.726s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.726s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.923s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.941s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.983s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.991s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.057s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.088s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.216s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.217s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.218s] -- Looking for pthread.h
+[1.291s] -- Looking for pthread.h - found
+[1.291s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.364s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.364s] -- Looking for pthread_create in pthreads
+[1.413s] -- Looking for pthread_create in pthreads - not found
+[1.416s] -- Looking for pthread_create in pthread
+[1.484s] -- Looking for pthread_create in pthread - found
+[1.496s] -- Found Threads: TRUE  
+[1.615s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.681s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.686s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.686s] -- Configured cppcheck include dirs: 
+[1.686s] -- Configured cppcheck exclude dirs and/or files: 
+[1.690s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.690s] -- Configured cpplint exclude dirs and/or files: 
+[1.691s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.692s] -- Added test 'lint_cmake' to check CMake code style
+[1.693s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.696s] -- Added test 'uncrustify' to check C / C++ code style
+[1.696s] -- Configured uncrustify additional arguments: 
+[1.697s] -- Added test 'xmllint' to check XML markup files
+[1.700s] -- Configuring done
+[1.708s] -- Generating done
+[1.709s] -- Build files have been written to: /home/joe/cam_test/build/cpp_pubsub

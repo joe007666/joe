@@ -1,0 +1,21 @@
+[0.019s] Invoking command in '/home/joe/cam_test/build/cam_test': /usr/bin/cmake /home/joe/cam_test -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cam_test
+[0.514s] CMake Error at CMakeLists.txt:17 (find_package):
+[0.514s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.514s]   has asked CMake to find a package configuration file provided by
+[0.514s]   "ament_cmake", but CMake did not find one.
+[0.514s] 
+[0.514s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.514s]   any of the following names:
+[0.515s] 
+[0.515s]     ament_cmakeConfig.cmake
+[0.515s]     ament_cmake-config.cmake
+[0.515s] 
+[0.515s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.515s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.515s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.516s]   has been installed.
+[0.517s] 
+[0.517s] 
+[0.517s] -- Configuring incomplete, errors occurred!
+[0.518s] See also "/home/joe/cam_test/build/cam_test/CMakeFiles/CMakeOutput.log".
+[0.519s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '1': /usr/bin/cmake /home/joe/cam_test -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cam_test

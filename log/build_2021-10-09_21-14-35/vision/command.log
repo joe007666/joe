@@ -1,0 +1,1 @@
+Invoking command in '/home/joe/cam_test/build/vision': /usr/bin/cmake /home/joe/rm_ros/rm_ros/src/vision -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/vision

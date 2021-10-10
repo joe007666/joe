@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target cam_test[0m
+[ 50%] Built target armor_detector_node
+[ 75%] [32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libcam_test.so[0m
+[100%] Built target cam_test
+-- Install configuration: ""
+-- Installing: /home/joe/cam_test/install/cam_test/lib/cam_test/armor_detector_node
+-- Set runtime path of "/home/joe/cam_test/install/cam_test/lib/cam_test/armor_detector_node" to ""
+-- Installing: /home/joe/cam_test/install/cam_test/lib/libcam_test.so
+-- Set runtime path of "/home/joe/cam_test/install/cam_test/lib/libcam_test.so" to ""
+-- Installing: /home/joe/cam_test/install/cam_test/include
+-- Installing: /home/joe/cam_test/install/cam_test/include/CameraDefine.h
+-- Installing: /home/joe/cam_test/install/cam_test/include/CameraStatus.h
+-- Installing: /home/joe/cam_test/install/cam_test/include/CameraApi.h
+CMake Error at cmake_install.cmake:88 (file):
+  file INSTALL cannot find "/home/joe/cam_test/launch": No such file or
+  directory.
+
+

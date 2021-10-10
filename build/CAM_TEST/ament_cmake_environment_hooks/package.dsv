@@ -1,0 +1,4 @@
+source;share/CAM_TEST/local_setup.bash
+source;share/CAM_TEST/local_setup.dsv
+source;share/CAM_TEST/local_setup.sh
+source;share/CAM_TEST/local_setup.zsh

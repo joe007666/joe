@@ -1,0 +1,9 @@
+[ 33%] Built target armor_detector_node
+[ 66%] [32m[1mLinking CXX executable cam_pub[0m
+[ 83%] Built target cam_test
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cam_pub.dir/build.make:222: cam_pub] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cam_pub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

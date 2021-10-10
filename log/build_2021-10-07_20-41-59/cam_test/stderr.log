@@ -1,0 +1,78 @@
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:14:36:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+   14 | class cam_pub : public rclcpp::Node[01;31m[K{[m[K
+      |                                    [01;31m[K^[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:16:22:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMinimalPublisher[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   16 |     MinimalPublisher([01;31m[K)[m[K
+      |                      [01;31m[K^[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:130:13:[m[K [01;31m[Kerror: [m[K‘[01m[KTimerBase[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+  130 |     rclcpp::[01;31m[KTimerBase[m[K::SharedPtr timer_;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:131:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisher[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+  131 |     rclcpp::[01;31m[KPublisher[m[K<std_msgs::msg::String>::SharedPtr publisher_;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:134:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  134 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In member function ‘[01m[Kint cam_pub::MinimalPublisher()[m[K’:
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:17:7:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   17 |     : [01;31m[KNode[m[K("cam_pub"), count_(0)
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:17:7:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kcam_pub[m[K’ does not have any field named ‘[01m[KNode[m[K’
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:19:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   19 |       [01;31m[Kpublisher_[m[K = this->create_publisher<sensor_msgs::msg::Image>("image_pub", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:19:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cam_pub[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+   19 |       publisher_ = this->[01;31m[Kcreate_publisher[m[K<sensor_msgs::msg::Image>("image_pub", 10);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:19:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   19 |       publisher_ = this->create_publisher<sensor_msgs::msg::Image[01;31m[K>[m[K("image_pub", 10);
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:19:68:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   19 |       publisher_ = this->create_publisher<sensor_msgs::msg::Image>([01;35m[K"image_pub"[m[K, 10);
+      |                                                                    [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   20 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |       [01;31m[K^~~~~~[m[K
+      |       [32m[Ktimer_t[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:20:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cam_pub[m[K’ has no member named ‘[01m[Kcreate_wall_timer[m[K’
+   20 |       timer_ = this->[01;31m[Kcreate_wall_timer[m[K(
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:21:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   21 |       [01;31m[K500ms[m[K, std::bind(&cam_pub::timer_callback, this));
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:22:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   22 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In member function ‘[01m[Kvoid cam_pub::imageProducer()[m[K’:
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:41:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR_NAMED[m[K’ was not declared in this scope
+   41 |             [01;31m[KROS_ERROR_NAMED[m[K("capture", "m capture error, state=%d", iStatus);
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:46:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR_NAMED[m[K’ was not declared in this scope
+   46 |             [01;31m[KROS_ERROR_NAMED[m[K("capture", "not connect capture");
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:54:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR_NAMED[m[K’ was not declared in this scope
+   54 |             [01;31m[KROS_ERROR_NAMED[m[K("capture", "capture init fail, state=%d", iStatus);
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:62:40:[m[K [01;31m[Kerror: [m[K‘[01m[KCameraParam[m[K’ has not been declared
+   62 |         CameraSetExposureTime(hCamera, [01;31m[KCameraParam[m[K::exposure);
+      |                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:106:31:[m[K [01;31m[Kerror: [m[K‘[01m[KImagePtr[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+  106 |                  sensor_msgs::[01;31m[KImagePtr[m[K msg;
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:110:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kshow_image_publisher_[m[K’ was not declared in this scope
+  110 |                  [01;31m[Kshow_image_publisher_[m[K.publish(msg);
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:115:18:[m[K [01;31m[Kerror: [m[K‘[01m[K_framesbuffer[m[K’ was not declared in this scope
+  115 |                  [01;31m[K_framesbuffer[m[K.push(
+      |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:116:25:[m[K [01;31m[Kerror: [m[K‘[01m[KFrame[m[K’ was not declared in this scope
+  116 |                         [01;31m[KFrame[m[K{startTime, timeStamp, CameraTimeStamp, vision_pitch, vision_yaw, outputImage});
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:86:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtimeStamp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   86 |                 double [01;35m[KtimeStamp[m[K = (static_cast<std::chrono::duration<double, std::milli>>(
+      |                        [01;35m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

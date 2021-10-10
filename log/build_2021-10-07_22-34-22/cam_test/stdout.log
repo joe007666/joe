@@ -1,0 +1,11 @@
+[ 50%] Built target armor_detector_node
+[100%] Built target cam_test
+-- Install configuration: ""
+-- Up-to-date: /home/joe/cam_test/install/cam_test/lib/cam_test/armor_detector_node
+-- Up-to-date: /home/joe/cam_test/install/cam_test/lib/libcam_test.so
+-- Up-to-date: /home/joe/cam_test/install/cam_test/include
+-- Up-to-date: /home/joe/cam_test/install/cam_test/include/CameraDefine.h
+-- Up-to-date: /home/joe/cam_test/install/cam_test/include/CameraStatus.h
+-- Up-to-date: /home/joe/cam_test/install/cam_test/include/CameraApi.h
+-- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/launch
+-- Installing: /home/joe/cam_test/install/cam_test/share/cam_test/config

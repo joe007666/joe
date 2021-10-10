@@ -1,0 +1,50 @@
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:15:36:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+   15 | class cam_pub : public rclcpp::Node[01;31m[K{[m[K
+      |                                    [01;31m[K^[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:17:22:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMinimalPublisher[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   17 |     MinimalPublisher([01;31m[K)[m[K
+      |                      [01;31m[K^[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:31:13:[m[K [01;31m[Kerror: [m[K‘[01m[KTimerBase[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+   31 |     rclcpp::[01;31m[KTimerBase[m[K::SharedPtr timer_;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:32:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisher[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+   32 |     rclcpp::[01;31m[KPublisher[m[K<std_msgs::msg::Image>::SharedPtr publisher_;
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:35:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   35 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In member function ‘[01m[Kint cam_pub::MinimalPublisher()[m[K’:
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:18:7:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   18 |     : [01;31m[KNode[m[K("cam_pub"), count_(0)
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:18:7:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kcam_pub[m[K’ does not have any field named ‘[01m[KNode[m[K’
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   20 |       [01;31m[Kpublisher_[m[K = this->create_publisher<sensor_msgs::msg::Image>("image_pub", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:20:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cam_pub[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+   20 |       publisher_ = this->[01;31m[Kcreate_publisher[m[K<sensor_msgs::msg::Image>("image_pub", 10);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:20:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   20 |       publisher_ = this->create_publisher<sensor_msgs::msg::Image[01;31m[K>[m[K("image_pub", 10);
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:20:68:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   20 |       publisher_ = this->create_publisher<sensor_msgs::msg::Image>([01;35m[K"image_pub"[m[K, 10);
+      |                                                                    [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:21:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   21 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |       [01;31m[K^~~~~~[m[K
+      |       [32m[Ktimer_t[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:21:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cam_pub[m[K’ has no member named ‘[01m[Kcreate_wall_timer[m[K’
+   21 |       timer_ = this->[01;31m[Kcreate_wall_timer[m[K(
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:22:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   22 |       [01;31m[K500ms[m[K, std::bind(&cam_pub::timer_callback, this));
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:23:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   23 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

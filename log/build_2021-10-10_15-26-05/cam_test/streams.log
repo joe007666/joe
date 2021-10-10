@@ -1,0 +1,30 @@
+[0.014s] Invoking command in '/home/joe/cam_test/build/cam_test': /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.143s] [ 33%] Built target armor_detector_node
+[0.152s] [100%] Built target cam_test
+[0.152s] [100%] Built target cam_pub
+[0.159s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '0': /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.179s] Invoking command in '/home/joe/cam_test/build/cam_test': /usr/bin/cmake --install /home/joe/cam_test/build/cam_test
+[0.184s] -- Install configuration: "RelWithDebInfo"
+[0.184s] -- Execute custom install script
+[0.184s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/lib/cam_test/armor_detector_node
+[0.184s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/lib/libcam_test.so
+[0.185s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/include/CameraApi.h
+[0.185s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/include/CameraDefine.h
+[0.186s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/include/CameraStatus.h
+[0.186s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/package_run_dependencies/cam_test
+[0.187s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/parent_prefix_path/cam_test
+[0.187s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/environment/ament_prefix_path.sh
+[0.188s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/environment/ament_prefix_path.dsv
+[0.188s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/environment/path.sh
+[0.188s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/environment/path.dsv
+[0.188s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.bash
+[0.189s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.sh
+[0.189s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.zsh
+[0.189s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.dsv
+[0.190s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/package.dsv
+[0.195s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/packages/cam_test
+[0.195s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/rclcpp_components/cam_test
+[0.195s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/cmake/cam_testConfig.cmake
+[0.196s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/cmake/cam_testConfig-version.cmake
+[0.196s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/package.xml
+[0.198s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '0': /usr/bin/cmake --install /home/joe/cam_test/build/cam_test

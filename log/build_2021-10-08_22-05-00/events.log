@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000393] (cam_test) JobQueued: {'identifier': 'cam_test', 'dependencies': OrderedDict()}
+[0.000452] (cam_test) JobStarted: {'identifier': 'cam_test'}
+[0.008600] (cam_test) JobProgress: {'identifier': 'cam_test', 'progress': 'cmake'}
+[0.011458] (cam_test) JobProgress: {'identifier': 'cam_test', 'progress': 'build'}
+[0.011532] (cam_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joe/cam_test/build/cam_test', '--', '-j12', '-l12'], 'cwd': '/home/joe/cam_test/build/cam_test', 'env': OrderedDict([('USER', 'joe'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joe'), ('OLDPWD', '/home/joe'), ('LESS', '-R'), ('ZSH', '/home/joe/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joe'), ('WSL_INTEROP', '/run/WSL/7676_interop'), ('NAME', 'LAPTOP-K888OCOC'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/stan/AppData/Local/Microsoft/WindowsApps:/mnt/c/vscode/Microsoft VS Code/bin'), ('WT_SESSION', 'a078d9c9-f85e-47f2-b111-385e783db720'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/joe/cam_test/build/cam_test'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.032903] (cam_test) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.051631] (cam_test) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099718] (-) TimerEvent: {}
+[0.175131] (cam_test) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.199922] (-) TimerEvent: {}
+[0.243240] (cam_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.247067] (cam_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300057] (-) TimerEvent: {}
+[0.400404] (-) TimerEvent: {}
+[0.500846] (-) TimerEvent: {}
+[0.601264] (-) TimerEvent: {}
+[0.701658] (-) TimerEvent: {}
+[0.802021] (-) TimerEvent: {}
+[0.902432] (-) TimerEvent: {}
+[1.002836] (-) TimerEvent: {}
+[1.058196] (cam_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.103002] (-) TimerEvent: {}
+[1.104454] (cam_test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.106516] (cam_test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.203168] (-) TimerEvent: {}
+[1.220504] (cam_test) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[1.267705] (cam_test) StdoutLine: {'line': b'-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.280055] (cam_test) StdoutLine: {'line': b'-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[1.303323] (-) TimerEvent: {}
+[1.403746] (-) TimerEvent: {}
+[1.504106] (-) TimerEvent: {}
+[1.576961] (cam_test) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.604335] (-) TimerEvent: {}
+[1.628210] (cam_test) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.655017] (cam_test) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.655417] (cam_test) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/joe/cam_test/include\n'}
+[1.655501] (cam_test) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.679332] (cam_test) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.679505] (cam_test) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.683857] (cam_test) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.692376] (cam_test) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.696218] (cam_test) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.704505] (-) TimerEvent: {}
+[1.720369] (cam_test) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.720607] (cam_test) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.724364] (cam_test) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.727421] (cam_test) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.746592] (cam_test) StdoutLine: {'line': b'-- Generating done\n'}
+[1.747999] (cam_test) StdoutLine: {'line': b'-- Build files have been written to: /home/joe/cam_test/build/cam_test\n'}
+[1.766434] (cam_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cam_test\x1b[0m\n'}
+[1.777856] (cam_test) StdoutLine: {'line': b'[ 50%] Built target armor_detector_node\n'}
+[1.788032] (cam_test) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o\x1b[0m\n'}
+[1.804691] (-) TimerEvent: {}
+[1.905030] (-) TimerEvent: {}
+[2.005525] (-) TimerEvent: {}
+[2.106002] (-) TimerEvent: {}
+[2.206451] (-) TimerEvent: {}
+[2.306891] (-) TimerEvent: {}
+[2.407247] (-) TimerEvent: {}
+[2.507690] (-) TimerEvent: {}
+[2.608091] (-) TimerEvent: {}
+[2.708510] (-) TimerEvent: {}
+[2.808835] (-) TimerEvent: {}
+[2.909205] (-) TimerEvent: {}
+[3.009646] (-) TimerEvent: {}
+[3.110047] (-) TimerEvent: {}
+[3.210457] (-) TimerEvent: {}
+[3.310880] (-) TimerEvent: {}
+[3.411292] (-) TimerEvent: {}
+[3.511622] (-) TimerEvent: {}
+[3.571778] (cam_test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcam_test.so\x1b[0m\n'}
+[3.611775] (-) TimerEvent: {}
+[3.712186] (-) TimerEvent: {}
+[3.757435] (cam_test) StdoutLine: {'line': b'[100%] Built target cam_test\n'}
+[3.764976] (cam_test) CommandEnded: {'returncode': 0}
+[3.781322] (cam_test) JobProgress: {'identifier': 'cam_test', 'progress': 'install'}
+[3.788515] (cam_test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/joe/cam_test/build/cam_test'], 'cwd': '/home/joe/cam_test/build/cam_test', 'env': OrderedDict([('USER', 'joe'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joe'), ('OLDPWD', '/home/joe'), ('LESS', '-R'), ('ZSH', '/home/joe/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joe'), ('WSL_INTEROP', '/run/WSL/7676_interop'), ('NAME', 'LAPTOP-K888OCOC'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/stan/AppData/Local/Microsoft/WindowsApps:/mnt/c/vscode/Microsoft VS Code/bin'), ('WT_SESSION', 'a078d9c9-f85e-47f2-b111-385e783db720'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/joe/cam_test/build/cam_test'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.793900] (cam_test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.794097] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/lib/cam_test/armor_detector_node\n'}
+[3.794285] (cam_test) StdoutLine: {'line': b'-- Installing: /home/joe/cam_test/install/cam_test/lib/libcam_test.so\n'}
+[3.794527] (cam_test) StdoutLine: {'line': b'-- Set runtime path of "/home/joe/cam_test/install/cam_test/lib/libcam_test.so" to ""\n'}
+[3.794642] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/include\n'}
+[3.794803] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/include/CameraDefine.h\n'}
+[3.794946] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/include/CameraStatus.h\n'}
+[3.795052] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/include/CameraApi.h\n'}
+[3.795155] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/launch\n'}
+[3.795258] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/config\n'}
+[3.795361] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/model\n'}
+[3.795465] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/package_run_dependencies/cam_test\n'}
+[3.795569] (cam_test) StdoutLine: {'line': b'-- Installing: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/parent_prefix_path/cam_test\n'}
+[3.795768] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/environment/ament_prefix_path.sh\n'}
+[3.795819] (cam_test) StdoutLine: {'line': b'-- Installing: /home/joe/cam_test/install/cam_test/share/cam_test/environment/ament_prefix_path.dsv\n'}
+[3.795863] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/environment/path.sh\n'}
+[3.795904] (cam_test) StdoutLine: {'line': b'-- Installing: /home/joe/cam_test/install/cam_test/share/cam_test/environment/path.dsv\n'}
+[3.795960] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.bash\n'}
+[3.796000] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.sh\n'}
+[3.796040] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.zsh\n'}
+[3.796079] (cam_test) StdoutLine: {'line': b'-- Installing: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.dsv\n'}
+[3.796118] (cam_test) StdoutLine: {'line': b'-- Installing: /home/joe/cam_test/install/cam_test/share/cam_test/package.dsv\n'}
+[3.796158] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/packages/cam_test\n'}
+[3.796213] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/rclcpp_components/cam_test\n'}
+[3.796324] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/cmake/cam_testConfig.cmake\n'}
+[3.796513] (cam_test) StdoutLine: {'line': b'-- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/cmake/cam_testConfig-version.cmake\n'}
+[3.796617] (cam_test) StdoutLine: {'line': b'-- Installing: /home/joe/cam_test/install/cam_test/share/cam_test/package.xml\n'}
+[3.797399] (cam_test) CommandEnded: {'returncode': 0}
+[3.812368] (-) TimerEvent: {}
+[3.828566] (cam_test) JobEnded: {'identifier': 'cam_test', 'rc': 0}
+[3.829335] (-) EventReactorShutdown: {}

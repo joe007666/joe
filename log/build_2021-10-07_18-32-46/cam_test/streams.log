@@ -1,0 +1,35 @@
+[0.031s] Invoking command in '/home/joe/cam_test/build/cam_test': /usr/bin/cmake /home/joe/cam_test -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cam_test
+[0.347s] -- The C compiler identification is GNU 9.3.0
+[0.620s] -- The CXX compiler identification is GNU 9.3.0
+[0.749s] -- Check for working C compiler: /usr/bin/cc
+[0.927s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.931s] -- Detecting C compiler ABI info
+[1.096s] -- Detecting C compiler ABI info - done
+[1.109s] -- Detecting C compile features
+[1.111s] -- Detecting C compile features - done
+[1.117s] -- Check for working CXX compiler: /usr/bin/c++
+[1.294s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.295s] -- Detecting CXX compiler ABI info
+[1.484s] -- Detecting CXX compiler ABI info - done
+[1.496s] -- Detecting CXX compile features
+[1.496s] -- Detecting CXX compile features - done
+[2.252s] CMake Error at CMakeLists.txt:17 (find_package):
+[2.252s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.252s]   has asked CMake to find a package configuration file provided by
+[2.252s]   "ament_cmake", but CMake did not find one.
+[2.253s] 
+[2.253s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.253s]   any of the following names:
+[2.253s] 
+[2.253s]     ament_cmakeConfig.cmake
+[2.253s]     ament_cmake-config.cmake
+[2.253s] 
+[2.253s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.253s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.253s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.253s]   has been installed.
+[2.253s] 
+[2.254s] 
+[2.254s] -- Configuring incomplete, errors occurred!
+[2.254s] See also "/home/joe/cam_test/build/cam_test/CMakeFiles/CMakeOutput.log".
+[2.260s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '1': /usr/bin/cmake /home/joe/cam_test -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cam_test

@@ -1,0 +1,66 @@
+[0.019s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.054s] [35m[1mScanning dependencies of target cam_test[0m
+[0.076s] [ 25%] [32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o[0m
+[0.077s] [ 75%] Built target armor_detector_node
+[0.783s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:16:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[0.783s]    16 | [01;31m[K{[m[K
+[0.783s]       | [01;31m[K^[m[K
+[0.783s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:34:13:[m[K [01;31m[Kerror: [m[K‘[01m[KTimerBase[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+[0.783s]    34 |     rclcpp::[01;31m[KTimerBase[m[K::SharedPtr timer_;
+[0.784s]       |             [01;31m[K^~~~~~~~~[m[K
+[0.784s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:35:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisher[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+[0.784s]    35 |     rclcpp::[01;31m[KPublisher[m[K<std_msgs::msg::String>::SharedPtr publisher_;
+[0.784s]       |             [01;31m[K^~~~~~~~~[m[K
+[0.784s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[0.784s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:19:7:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[KNode[m[K’
+[0.784s]    19 |     : [01;31m[KNode[m[K("minimal_publisher"), count_(0)
+[0.784s]       |       [01;31m[K^~~~[m[K
+[0.788s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:21:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[0.788s]    21 |       [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic", 10);
+[0.788s]       |       [01;31m[K^~~~~~~~~~[m[K
+[0.788s]       |       [32m[Krcl_publisher_t[m[K
+[0.788s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:21:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalPublisher[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+[0.789s]    21 |       publisher_ = this->[01;31m[Kcreate_publisher[m[K<std_msgs::msg::String>("topic", 10);
+[0.789s]       |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.789s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:21:64:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[0.789s]    21 |       publisher_ = this->create_publisher<std_msgs::msg::String[01;31m[K>[m[K("topic", 10);
+[0.789s]       |                                                                [01;31m[K^[m[K
+[0.789s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:21:66:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[0.789s]    21 |       publisher_ = this->create_publisher<std_msgs::msg::String>([01;35m[K"topic"[m[K, 10);
+[0.789s]       |                                                                  [01;35m[K^~~~~~~[m[K
+[0.790s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:22:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[0.790s]    22 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[0.790s]       |       [01;31m[K^~~~~~[m[K
+[0.791s]       |       [32m[Ktimer_t[m[K
+[0.791s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:22:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalPublisher[m[K’ has no member named ‘[01m[Kcreate_wall_timer[m[K’
+[0.791s]    22 |       timer_ = this->[01;31m[Kcreate_wall_timer[m[K(
+[0.791s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.791s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:23:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[0.791s]    23 |       [01;31m[K500ms[m[K, std::bind(&MinimalPublisher::timer_callback, this));
+[0.791s]       |       [01;31m[K^~~~~[m[K
+[0.799s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[0.799s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:31:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalPublisher[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[0.799s]    31 |       RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publishing: '%s'", message.data.c_str());
+[0.799s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[0.805s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:31:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_IMPORT[m[K’?
+[0.805s]    31 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+[0.805s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[0.805s]       |       [32m[KRCLCPP_IMPORT[m[K
+[0.811s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:32:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[0.811s]    32 |       [01;31m[Kpublisher_[m[K->publish(message);
+[0.811s]       |       [01;31m[K^~~~~~~~~~[m[K
+[0.811s]       |       [32m[Krcl_publisher_t[m[K
+[0.812s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.812s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:41:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kinit[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[0.812s]    41 |   rclcpp::[01;31m[Kinit[m[K(argc, argv);
+[0.812s]       |           [01;31m[K^~~~[m[K
+[0.812s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:42:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kspin[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[0.812s]    42 |   rclcpp::[01;31m[Kspin[m[K(std::make_shared<MinimalPublisher>());
+[0.812s]       |           [01;31m[K^~~~[m[K
+[0.817s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:43:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kshutdown[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[0.817s]    43 |   rclcpp::[01;31m[Kshutdown[m[K();
+[0.817s]       |           [01;31m[K^~~~~~~~[m[K
+[0.963s] make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1
+[0.963s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2
+[0.963s] make: *** [Makefile:141: all] Error 2
+[0.967s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12

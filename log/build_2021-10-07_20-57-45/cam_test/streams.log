@@ -1,0 +1,10 @@
+[0.023s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.076s] [ 25%] [32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o[0m
+[0.077s] [ 75%] Built target armor_detector_node
+[0.745s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:15:36:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[0.745s]    15 | class cam_pub : public rclcpp::Node[01;31m[K{[m[K
+[0.745s]       |                                    [01;31m[K^[m[K
+[0.865s] make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1
+[0.865s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2
+[0.866s] make: *** [Makefile:141: all] Error 2
+[0.870s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12

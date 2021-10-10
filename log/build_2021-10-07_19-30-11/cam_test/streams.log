@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.037s] [35m[1mScanning dependencies of target cam_test[0m
+[0.049s] [ 50%] Built target armor_detector_node
+[0.052s] [ 75%] [32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o[0m
+[0.592s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.592s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:11:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kinit[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[0.592s]    11 |   rclcpp::[01;31m[Kinit[m[K(argc, argv);
+[0.592s]       |           [01;31m[K^~~~[m[K
+[0.592s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:13:39:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[0.592s]    13 |     [[noreturn]] void imageProducer() [01;31m[K{[m[K
+[0.592s]       |                                       [01;31m[K^[m[K
+[0.689s] make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1
+[0.690s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2
+[0.690s] make: *** [Makefile:141: all] Error 2
+[0.691s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12

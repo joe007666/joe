@@ -1,0 +1,10 @@
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:11:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kinit[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   11 |   rclcpp::[01;31m[Kinit[m[K(argc, argv);
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:13:39:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   13 |     [[noreturn]] void imageProducer() [01;31m[K{[m[K
+      |                                       [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

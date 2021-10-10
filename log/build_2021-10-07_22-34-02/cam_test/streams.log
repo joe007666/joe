@@ -1,0 +1,19 @@
+[0.012s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.050s] [ 50%] Built target armor_detector_node
+[0.051s] [100%] Built target cam_test
+[0.060s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.081s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/joe/cam_test/build/cam_test
+[0.085s] -- Install configuration: ""
+[0.086s] -- Up-to-date: /home/joe/cam_test/install/cam_test/lib/cam_test/armor_detector_node
+[0.086s] -- Up-to-date: /home/joe/cam_test/install/cam_test/lib/libcam_test.so
+[0.086s] CMake Error at cmake_install.cmake:88 (file):
+[0.086s]   file INSTALL cannot find "/home/joe/cam_test/config": No such file or
+[0.086s]   directory.
+[0.086s] 
+[0.086s] 
+[0.086s] -- Up-to-date: /home/joe/cam_test/install/cam_test/include
+[0.086s] -- Up-to-date: /home/joe/cam_test/install/cam_test/include/CameraDefine.h
+[0.086s] -- Up-to-date: /home/joe/cam_test/install/cam_test/include/CameraStatus.h
+[0.087s] -- Up-to-date: /home/joe/cam_test/install/cam_test/include/CameraApi.h
+[0.087s] -- Installing: /home/joe/cam_test/install/cam_test/share/cam_test/launch
+[0.087s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/joe/cam_test/build/cam_test

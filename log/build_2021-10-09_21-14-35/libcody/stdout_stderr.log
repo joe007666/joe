@@ -1,0 +1,21 @@
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git revision db3d7270b42f-modified 
+-- Performing Test LIBCODY_CXX_HAS_STDLIB_FLAG
+-- Performing Test LIBCODY_CXX_HAS_STDLIB_FLAG - Failed
+-- Performing Test LIBCODY_HAS_NOENFORCE
+-- Performing Test LIBCODY_HAS_NOENFORCE - Success
+-- Performing Test LIBCODY_HAS_NOSTACKPROT
+-- Performing Test LIBCODY_HAS_NOSTACKPROT - Success
+-- Performing Test LIBCODY_HAS_NOTHREADSAFESTATICS
+-- Performing Test LIBCODY_HAS_NOTHREADSAFESTATICS - Success
+-- Performing Test LIBCODY_CXX_W_GZVMA
+-- Performing Test LIBCODY_CXX_W_GZVMA - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/joe/cam_test/build/libcody

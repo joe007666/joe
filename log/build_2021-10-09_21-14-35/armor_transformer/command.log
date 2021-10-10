@@ -1,0 +1,1 @@
+Invoking command in '/home/joe/cam_test/build/armor_transformer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/joe/armor_transformer -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/armor_transformer

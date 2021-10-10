@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/joe/cam_test/build/cam_test",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -I/home/joe/cam_test/include -isystem /opt/ros/foxy/include  -O2 -g -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o -c /home/joe/cam_test/build/cam_test/rclcpp_components/node_main_armor_detector_node.cpp",
+  "file": "/home/joe/cam_test/build/cam_test/rclcpp_components/node_main_armor_detector_node.cpp"
+},
+{
+  "directory": "/home/joe/cam_test/build/cam_test",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -I/home/joe/cam_test/include -isystem /opt/ros/foxy/include -isystem /usr/include/opencv4  -O2 -g -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/cam_pub.dir/src/cam_pub.cpp.o -c /home/joe/cam_test/src/cam_pub.cpp",
+  "file": "/home/joe/cam_test/src/cam_pub.cpp"
+},
+{
+  "directory": "/home/joe/cam_test/build/cam_test",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Dcam_test_EXPORTS -I/home/joe/cam_test/include -isystem /opt/ros/foxy/include -isystem /usr/include/opencv4  -O2 -g -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/cam_test.dir/src/cam_pub.cpp.o -c /home/joe/cam_test/src/cam_pub.cpp",
+  "file": "/home/joe/cam_test/src/cam_pub.cpp"
+}
+]

@@ -1,0 +1,26 @@
+[ 33%] Built target armor_detector_node
+[100%] Built target cam_test
+[100%] Built target cam_pub
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/lib/cam_test/armor_detector_node
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/lib/libcam_test.so
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/include/CameraApi.h
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/include/CameraDefine.h
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/include/CameraStatus.h
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/package_run_dependencies/cam_test
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/parent_prefix_path/cam_test
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/environment/path.sh
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/environment/path.dsv
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.bash
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.sh
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.zsh
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.dsv
+-- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/package.dsv
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/packages/cam_test
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/rclcpp_components/cam_test
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/cmake/cam_testConfig.cmake
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/cmake/cam_testConfig-version.cmake
+-- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/package.xml

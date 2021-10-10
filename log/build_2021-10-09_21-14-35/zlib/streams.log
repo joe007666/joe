@@ -1,0 +1,27 @@
+[0.131s] Invoking command in '/home/joe/cam_test/build/zlib': /usr/bin/cmake /home/joe/src/zlib -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/zlib
+[0.845s] -- The C compiler identification is GNU 9.3.0
+[0.845s] -- Check for working C compiler: /usr/bin/cc
+[0.845s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.845s] -- Detecting C compiler ABI info
+[0.845s] -- Detecting C compiler ABI info - done
+[0.845s] -- Detecting C compile features
+[0.845s] -- Detecting C compile features - done
+[0.846s] -- Looking for sys/types.h
+[0.846s] -- Looking for sys/types.h - found
+[0.846s] -- Looking for stdint.h
+[0.846s] -- Looking for stdint.h - found
+[0.846s] -- Looking for stddef.h
+[0.846s] -- Looking for stddef.h - found
+[0.846s] -- Check size of off64_t
+[0.871s] -- Check size of off64_t - done
+[0.871s] -- Looking for fseeko
+[0.934s] -- Looking for fseeko - found
+[0.934s] -- Looking for unistd.h
+[1.003s] -- Looking for unistd.h - found
+[1.004s] -- Renaming
+[1.004s] --     /home/joe/src/zlib/zconf.h
+[1.004s] -- to 'zconf.h.included' because this file is included with zlib
+[1.004s] -- but CMake generates it automatically in the build directory.
+[1.008s] -- Configuring done
+[1.019s] -- Generating done
+[1.020s] -- Build files have been written to: /home/joe/cam_test/build/zlib

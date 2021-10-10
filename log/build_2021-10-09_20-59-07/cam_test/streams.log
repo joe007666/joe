@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.051s] [ 33%] Built target armor_detector_node
+[0.053s] [ 66%] [32m[1mLinking CXX executable cam_pub[0m
+[0.053s] [ 83%] Built target cam_test
+[0.240s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.241s] (.text+0x24): undefined reference to `main'
+[0.241s] collect2: error: ld returned 1 exit status
+[0.243s] make[2]: *** [CMakeFiles/cam_pub.dir/build.make:222: cam_pub] Error 1
+[0.243s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cam_pub.dir/all] Error 2
+[0.243s] make: *** [Makefile:141: all] Error 2
+[0.245s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12

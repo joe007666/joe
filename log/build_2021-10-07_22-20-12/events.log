@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000221] (cam_test) JobQueued: {'identifier': 'cam_test', 'dependencies': OrderedDict()}
+[0.000262] (cam_test) JobStarted: {'identifier': 'cam_test'}
+[0.007624] (cam_test) JobProgress: {'identifier': 'cam_test', 'progress': 'cmake'}
+[0.008319] (cam_test) JobProgress: {'identifier': 'cam_test', 'progress': 'build'}
+[0.008944] (cam_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joe/cam_test/build/cam_test', '--', '-j12', '-l12'], 'cwd': '/home/joe/cam_test/build/cam_test', 'env': OrderedDict([('USER', 'joe'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joe'), ('OLDPWD', '/home/joe'), ('LESS', '-R'), ('ZSH', '/home/joe/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/joe/cam_test/install:/home/joe/cpp_pubsub/install:/home/joe/armor_detector/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joe'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('NAME', 'LAPTOP-K888OCOC'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/stan/AppData/Local/Microsoft/WindowsApps:/mnt/c/vscode/Microsoft VS Code/bin'), ('WT_SESSION', '6bde64ef-e6ff-4688-8cae-2bb725f01482'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/joe/cpp_pubsub/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/joe/cam_test/build/cam_test'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/home/joe/cpp_pubsub/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.028093] (cam_test) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.042617] (cam_test) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.098633] (-) TimerEvent: {}
+[0.150916] (cam_test) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.198788] (-) TimerEvent: {}
+[0.201722] (cam_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.203919] (cam_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.298949] (-) TimerEvent: {}
+[0.399321] (-) TimerEvent: {}
+[0.499693] (-) TimerEvent: {}
+[0.600043] (-) TimerEvent: {}
+[0.700414] (-) TimerEvent: {}
+[0.800869] (-) TimerEvent: {}
+[0.901272] (-) TimerEvent: {}
+[1.001628] (-) TimerEvent: {}
+[1.102041] (-) TimerEvent: {}
+[1.124160] (cam_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.157008] (cam_test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.157769] (cam_test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.202242] (-) TimerEvent: {}
+[1.250041] (cam_test) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[1.284167] (cam_test) StdoutLine: {'line': b'-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.293983] (cam_test) StdoutLine: {'line': b'-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[1.302326] (-) TimerEvent: {}
+[1.402644] (-) TimerEvent: {}
+[1.502989] (-) TimerEvent: {}
+[1.603346] (-) TimerEvent: {}
+[1.703721] (-) TimerEvent: {}
+[1.794345] (cam_test) StderrLine: {'line': b'CMake Error at CMakeLists.txt:23 (find_package):\n'}
+[1.794545] (cam_test) StderrLine: {'line': b'  By not providing "FindInferenceEngine.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.794594] (cam_test) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.794635] (cam_test) StderrLine: {'line': b'  "InferenceEngine", but CMake did not find one.\n'}
+[1.794679] (cam_test) StderrLine: {'line': b'\n'}
+[1.794718] (cam_test) StderrLine: {'line': b'  Could not find a package configuration file provided by "InferenceEngine"\n'}
+[1.794757] (cam_test) StderrLine: {'line': b'  with any of the following names:\n'}
+[1.794796] (cam_test) StderrLine: {'line': b'\n'}
+[1.794835] (cam_test) StderrLine: {'line': b'    InferenceEngineConfig.cmake\n'}
+[1.794885] (cam_test) StderrLine: {'line': b'    inferenceengine-config.cmake\n'}
+[1.794926] (cam_test) StderrLine: {'line': b'\n'}
+[1.794964] (cam_test) StderrLine: {'line': b'  Add the installation prefix of "InferenceEngine" to CMAKE_PREFIX_PATH or\n'}
+[1.795003] (cam_test) StderrLine: {'line': b'  set "InferenceEngine_DIR" to a directory containing one of the above files.\n'}
+[1.795042] (cam_test) StderrLine: {'line': b'  If "InferenceEngine" provides a separate development package or SDK, be\n'}
+[1.795081] (cam_test) StderrLine: {'line': b'  sure it has been installed.\n'}
+[1.795178] (cam_test) StderrLine: {'line': b'\n'}
+[1.795226] (cam_test) StderrLine: {'line': b'\n'}
+[1.795266] (cam_test) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.795315] (cam_test) StdoutLine: {'line': b'See also "/home/joe/cam_test/build/cam_test/CMakeFiles/CMakeOutput.log".\n'}
+[1.795355] (cam_test) StdoutLine: {'line': b'See also "/home/joe/cam_test/build/cam_test/CMakeFiles/CMakeError.log".\n'}
+[1.799913] (cam_test) StderrLine: {'line': b'make: *** [Makefile:310: cmake_check_build_system] Error 1\n'}
+[1.801304] (cam_test) CommandEnded: {'returncode': 2}
+[1.803808] (-) TimerEvent: {}
+[1.823018] (cam_test) JobEnded: {'identifier': 'cam_test', 'rc': 2}
+[1.833623] (-) EventReactorShutdown: {}

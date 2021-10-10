@@ -1,0 +1,145 @@
+[0.010s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.026s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.040s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.145s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.197s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.112s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.144s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.145s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.234s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.267s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.276s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.584s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.625s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.633s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.633s] -- Configured cppcheck include dirs: /home/joe/cam_test/include
+[1.633s] -- Configured cppcheck exclude dirs and/or files: 
+[1.639s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.640s] -- Configured cpplint exclude dirs and/or files: 
+[1.640s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.642s] -- Added test 'lint_cmake' to check CMake code style
+[1.643s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.650s] -- Added test 'uncrustify' to check C / C++ code style
+[1.650s] -- Configured uncrustify additional arguments: 
+[1.651s] -- Added test 'xmllint' to check XML markup files
+[1.652s] -- Configuring done
+[1.668s] -- Generating done
+[1.669s] -- Build files have been written to: /home/joe/cam_test/build/cam_test
+[1.687s] [35m[1mScanning dependencies of target cam_test[0m
+[1.687s] [35m[1mScanning dependencies of target armor_detector_node[0m
+[1.704s] [ 50%] [32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o[0m
+[1.705s] [ 50%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o[0m
+[2.333s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:14:36:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[2.333s]    14 | class cam_pub : public rclcpp::Node[01;31m[K{[m[K
+[2.333s]       |                                    [01;31m[K^[m[K
+[2.334s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:16:22:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMinimalPublisher[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[2.334s]    16 |     MinimalPublisher([01;31m[K)[m[K
+[2.334s]       |                      [01;31m[K^[m[K
+[2.334s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:135:13:[m[K [01;31m[Kerror: [m[K‘[01m[KTimerBase[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+[2.334s]   135 |     rclcpp::[01;31m[KTimerBase[m[K::SharedPtr timer_;
+[2.334s]       |             [01;31m[K^~~~~~~~~[m[K
+[2.334s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:136:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisher[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+[2.334s]   136 |     rclcpp::[01;31m[KPublisher[m[K<std_msgs::msg::String>::SharedPtr publisher_;
+[2.334s]       |             [01;31m[K^~~~~~~~~[m[K
+[2.334s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:139:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.334s]   139 | }
+[2.334s]       |  [01;31m[K^[m[K
+[2.334s]       |  [32m[K;[m[K
+[2.334s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In member function ‘[01m[Kint cam_pub::MinimalPublisher()[m[K’:
+[2.334s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:17:7:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[2.334s]    17 |     : [01;31m[KNode[m[K("cam_pub"), count_(0)
+[2.334s]       |       [01;31m[K^~~~[m[K
+[2.335s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:17:7:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kcam_pub[m[K’ does not have any field named ‘[01m[KNode[m[K’
+[2.337s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:19:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[2.337s]    19 |       [01;31m[Kpublisher_[m[K = this->create_publisher<sensor_msgs::msg::Image>("image_pub", 10);
+[2.337s]       |       [01;31m[K^~~~~~~~~~[m[K
+[2.338s]       |       [32m[Krcl_publisher_t[m[K
+[2.338s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:19:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cam_pub[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+[2.338s]    19 |       publisher_ = this->[01;31m[Kcreate_publisher[m[K<sensor_msgs::msg::Image>("image_pub", 10);
+[2.338s]       |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.338s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:19:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.338s]    19 |       publisher_ = this->create_publisher<sensor_msgs::msg::Image[01;31m[K>[m[K("image_pub", 10);
+[2.338s]       |                                                                  [01;31m[K^[m[K
+[2.338s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:19:68:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[2.338s]    19 |       publisher_ = this->create_publisher<sensor_msgs::msg::Image>([01;35m[K"image_pub"[m[K, 10);
+[2.338s]       |                                                                    [01;35m[K^~~~~~~~~~~[m[K
+[2.339s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[2.339s]    20 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[2.339s]       |       [01;31m[K^~~~~~[m[K
+[2.339s]       |       [32m[Ktimer_t[m[K
+[2.339s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:20:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cam_pub[m[K’ has no member named ‘[01m[Kcreate_wall_timer[m[K’
+[2.339s]    20 |       timer_ = this->[01;31m[Kcreate_wall_timer[m[K(
+[2.339s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.339s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:21:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[2.339s]    21 |       [01;31m[K500ms[m[K, std::bind(&cam_pub::timer_callback, this));
+[2.339s]       |       [01;31m[K^~~~~[m[K
+[2.343s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:22:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[2.343s]    22 |     [01;35m[K}[m[K
+[2.343s]       |     [01;35m[K^[m[K
+[2.348s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In member function ‘[01m[Kvoid cam_pub::imageProducer()[m[K’:
+[2.348s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:41:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR_NAMED[m[K’ was not declared in this scope
+[2.348s]    41 |             [01;31m[KROS_ERROR_NAMED[m[K("capture", "m capture error, state=%d", iStatus);
+[2.348s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.352s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:46:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR_NAMED[m[K’ was not declared in this scope
+[2.352s]    46 |             [01;31m[KROS_ERROR_NAMED[m[K("capture", "not connect capture");
+[2.352s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.358s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:54:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR_NAMED[m[K’ was not declared in this scope
+[2.358s]    54 |             [01;31m[KROS_ERROR_NAMED[m[K("capture", "capture init fail, state=%d", iStatus);
+[2.358s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.358s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:62:40:[m[K [01;31m[Kerror: [m[K‘[01m[KCameraParam[m[K’ has not been declared
+[2.358s]    62 |         CameraSetExposureTime(hCamera, [01;31m[KCameraParam[m[K::exposure);
+[2.358s]       |                                        [01;31m[K^~~~~~~~~~~[m[K
+[2.364s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:90:21:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR_NAMED[m[K’ was not declared in this scope
+[2.364s]    90 |                     [01;31m[KROS_ERROR_NAMED[m[K("capture", "get CameraTimeStamp failed");
+[2.364s]       |                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.365s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:106:31:[m[K [01;31m[Kerror: [m[K‘[01m[KImagePtr[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+[2.365s]   106 |                  sensor_msgs::[01;31m[KImagePtr[m[K msg;
+[2.365s]       |                               [01;31m[K^~~~~~~~[m[K
+[2.374s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:110:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kshow_image_publisher_[m[K’ was not declared in this scope
+[2.374s]   110 |                  [01;31m[Kshow_image_publisher_[m[K.publish(msg);
+[2.374s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.378s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:115:18:[m[K [01;31m[Kerror: [m[K‘[01m[K_framesbuffer[m[K’ was not declared in this scope
+[2.378s]   115 |                  [01;31m[K_framesbuffer[m[K.push(
+[2.378s]       |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[2.379s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:116:25:[m[K [01;31m[Kerror: [m[K‘[01m[KFrame[m[K’ was not declared in this scope
+[2.379s]   116 |                         [01;31m[KFrame[m[K{startTime, timeStamp, CameraTimeStamp, vision_pitch, vision_yaw, outputImage});
+[2.379s]       |                         [01;31m[K^~~~~[m[K
+[2.379s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:86:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtimeStamp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.379s]    86 |                 double [01;35m[KtimeStamp[m[K = (static_cast<std::chrono::duration<double, std::milli>>(
+[2.380s]       |                        [01;35m[K^~~~~~~~~[m[K
+[2.380s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:103:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvision_pitch[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.380s]   103 |                 float [01;35m[Kvision_pitch[m[K, vision_yaw;
+[2.380s]       |                       [01;35m[K^~~~~~~~~~~~[m[K
+[2.380s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:103:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvision_yaw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.380s]   103 |                 float vision_pitch, [01;35m[Kvision_yaw[m[K;
+[2.380s]       |                                     [01;35m[K^~~~~~~~~~[m[K
+[2.383s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:122:17:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_WARN_NAMED[m[K’ was not declared in this scope; did you mean ‘[01m[KRCL_WARN_UNUSED[m[K’?
+[2.383s]   122 |                 [01;31m[KROS_WARN_NAMED[m[K("capture", "get frame timeout");
+[2.383s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.383s]       |                 [32m[KRCL_WARN_UNUSED[m[K
+[2.384s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:124:61:[m[K [01;31m[Kerror: [m[K‘[01m[KFps[m[K’ was not declared in this scope
+[2.384s]   124 |             ROS_DEBUG_NAMED("capture", "Camera's FPS : %d", [01;31m[KFps[m[K());
+[2.384s]       |                                                             [01;31m[K^~~[m[K
+[2.388s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:124:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_DEBUG_NAMED[m[K’ was not declared in this scope
+[2.388s]   124 |             [01;31m[KROS_DEBUG_NAMED[m[K("capture", "Camera's FPS : %d", Fps());
+[2.388s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.388s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In member function ‘[01m[Kvoid cam_pub::timer_callback()[m[K’:
+[2.389s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:132:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cam_pub[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.389s]   132 |       RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publishing: '%s'", message.data.c_str());
+[2.389s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[2.391s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:132:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_IMPORT[m[K’?
+[2.391s]   132 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+[2.392s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.392s]       |       [32m[KRCLCPP_IMPORT[m[K
+[2.394s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:133:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[2.394s]   133 |       [01;31m[Kpublisher_[m[K->publish(message);
+[2.394s]       |       [01;31m[K^~~~~~~~~~[m[K
+[2.394s]       |       [32m[Krcl_publisher_t[m[K
+[2.504s] make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1
+[2.505s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2
+[2.505s] make[1]: *** Waiting for unfinished jobs....
+[3.146s] [ 75%] [32m[1mLinking CXX executable armor_detector_node[0m
+[3.240s] [ 75%] Built target armor_detector_node
+[3.241s] make: *** [Makefile:141: all] Error 2
+[3.242s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12

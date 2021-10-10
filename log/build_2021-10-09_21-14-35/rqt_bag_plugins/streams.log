@@ -1,0 +1,34 @@
+[0.122s] Invoking command in '/home/joe/cam_test/build/rqt_bag_plugins': /usr/bin/cmake /home/joe/rm_ros/rm_ros/src/rqt_bag_plugins -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/rqt_bag_plugins
+[0.722s] -- The C compiler identification is GNU 9.3.0
+[0.723s] -- The CXX compiler identification is GNU 9.3.0
+[0.723s] -- Check for working C compiler: /usr/bin/cc
+[0.723s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.723s] -- Detecting C compiler ABI info
+[0.723s] -- Detecting C compiler ABI info - done
+[0.725s] -- Detecting C compile features
+[0.725s] -- Detecting C compile features - done
+[0.725s] -- Check for working CXX compiler: /usr/bin/c++
+[0.725s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.725s] -- Detecting CXX compiler ABI info
+[0.763s] -- Detecting CXX compiler ABI info - done
+[0.781s] -- Detecting CXX compile features
+[0.781s] -- Detecting CXX compile features - done
+[0.792s] CMake Error at CMakeLists.txt:4 (find_package):
+[0.792s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.792s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.792s]   CMake did not find one.
+[0.792s] 
+[0.792s]   Could not find a package configuration file provided by "catkin" with any
+[0.792s]   of the following names:
+[0.792s] 
+[0.793s]     catkinConfig.cmake
+[0.793s]     catkin-config.cmake
+[0.793s] 
+[0.793s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.793s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.793s]   provides a separate development package or SDK, be sure it has been
+[0.793s]   installed.
+[0.793s] 
+[0.793s] 
+[0.794s] -- Configuring incomplete, errors occurred!
+[0.794s] See also "/home/joe/cam_test/build/rqt_bag_plugins/CMakeFiles/CMakeOutput.log".

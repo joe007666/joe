@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.040s] [35m[1mScanning dependencies of target cam_test[0m
+[0.052s] [ 50%] Built target armor_detector_node
+[0.068s] [ 75%] [32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o[0m
+[2.273s] [100%] [32m[1mLinking CXX shared library libcam_test.so[0m
+[2.463s] [100%] Built target cam_test
+[2.470s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[2.493s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/joe/cam_test/build/cam_test
+[2.498s] -- Install configuration: ""
+[2.498s] -- Installing: /home/joe/cam_test/install/cam_test/lib/cam_test/armor_detector_node
+[2.499s] -- Set runtime path of "/home/joe/cam_test/install/cam_test/lib/cam_test/armor_detector_node" to ""
+[2.499s] -- Installing: /home/joe/cam_test/install/cam_test/lib/libcam_test.so
+[2.499s] -- Set runtime path of "/home/joe/cam_test/install/cam_test/lib/libcam_test.so" to ""
+[2.499s] -- Installing: /home/joe/cam_test/install/cam_test/include
+[2.500s] -- Installing: /home/joe/cam_test/install/cam_test/include/CameraDefine.h
+[2.500s] -- Installing: /home/joe/cam_test/install/cam_test/include/CameraStatus.h
+[2.500s] -- Installing: /home/joe/cam_test/install/cam_test/include/CameraApi.h
+[2.500s] CMake Error at cmake_install.cmake:88 (file):
+[2.500s]   file INSTALL cannot find "/home/joe/cam_test/launch": No such file or
+[2.500s]   directory.
+[2.500s] 
+[2.500s] 
+[2.501s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/joe/cam_test/build/cam_test

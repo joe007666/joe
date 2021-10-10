@@ -1,0 +1,7 @@
+{
+  "package_name": "realsense_camera_msgs",
+  "non_idl_tuples": [
+    "/home/joe/ros2_intel_realsense/realsense_camera_msgs:msg/IMUInfo.msg",
+    "/home/joe/ros2_intel_realsense/realsense_camera_msgs:msg/Extrinsics.msg"
+  ]
+}

@@ -1,0 +1,1 @@
+Invoking command in '/home/joe/cam_test/build/zlib': /usr/bin/cmake /home/joe/src/zlib -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/zlib

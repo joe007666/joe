@@ -1,0 +1,7 @@
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/CameraApi.h: No such file or directory
+    1 | #include [01;31m[K<include/CameraApi.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

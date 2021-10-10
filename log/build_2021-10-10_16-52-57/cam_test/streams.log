@@ -1,0 +1,24 @@
+[0.023s] Invoking command in '/home/joe/cam_test/build/cam_test': /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.053s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.072s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.193s] Traceback (most recent call last):
+[0.193s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.193s]     from ament_package.templates import get_environment_hook_template_path
+[0.193s] ModuleNotFoundError: No module named 'ament_package'
+[0.215s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.216s]   execute_process(/usr/bin/python3
+[0.216s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.216s]   /home/joe/cam_test/build/cam_test/ament_cmake_package_templates/templates.cmake)
+[0.216s]   returned error code 1
+[0.216s] Call Stack (most recent call first):
+[0.216s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.216s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.216s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.216s]   CMakeLists.txt:17 (find_package)
+[0.217s] 
+[0.217s] 
+[0.217s] -- Configuring incomplete, errors occurred!
+[0.217s] See also "/home/joe/cam_test/build/cam_test/CMakeFiles/CMakeOutput.log".
+[0.217s] See also "/home/joe/cam_test/build/cam_test/CMakeFiles/CMakeError.log".
+[0.218s] make: *** [Makefile:327: cmake_check_build_system] Error 1
+[0.221s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '2': /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12

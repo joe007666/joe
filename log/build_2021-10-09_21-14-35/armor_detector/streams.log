@@ -1,0 +1,60 @@
+[0.055s] Invoking command in '/home/joe/cam_test/build/armor_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/joe/armor_detector -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/armor_detector
+[0.202s] -- The C compiler identification is GNU 9.3.0
+[0.202s] -- The CXX compiler identification is GNU 9.3.0
+[0.202s] -- Check for working C compiler: /usr/bin/cc
+[0.285s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.285s] -- Detecting C compiler ABI info
+[0.388s] -- Detecting C compiler ABI info - done
+[0.392s] -- Detecting C compile features
+[0.392s] -- Detecting C compile features - done
+[0.394s] -- Check for working CXX compiler: /usr/bin/c++
+[0.491s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.491s] -- Detecting CXX compiler ABI info
+[0.598s] -- Detecting CXX compiler ABI info - done
+[0.608s] -- Detecting CXX compile features
+[0.615s] -- Detecting CXX compile features - done
+[0.617s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.672s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.672s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.886s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.905s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.953s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.025s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.055s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.128s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.186s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.187s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.188s] -- Looking for pthread.h
+[1.255s] -- Looking for pthread.h - found
+[1.255s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.328s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.328s] -- Looking for pthread_create in pthreads
+[1.379s] -- Looking for pthread_create in pthreads - not found
+[1.385s] -- Looking for pthread_create in pthread
+[1.439s] -- Looking for pthread_create in pthread - found
+[1.440s] -- Found Threads: TRUE  
+[1.589s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.642s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.662s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.815s] -- Found OpenCV: /usr (found version "4.2.0") 
+[1.821s] CMake Error at CMakeLists.txt:20 (find_package):
+[1.821s]   By not providing "FindInferenceEngine.cmake" in CMAKE_MODULE_PATH this
+[1.821s]   project has asked CMake to find a package configuration file provided by
+[1.821s]   "InferenceEngine", but CMake did not find one.
+[1.821s] 
+[1.821s]   Could not find a package configuration file provided by "InferenceEngine"
+[1.821s]   with any of the following names:
+[1.821s] 
+[1.821s]     InferenceEngineConfig.cmake
+[1.821s]     inferenceengine-config.cmake
+[1.822s] 
+[1.822s]   Add the installation prefix of "InferenceEngine" to CMAKE_PREFIX_PATH or
+[1.822s]   set "InferenceEngine_DIR" to a directory containing one of the above files.
+[1.822s]   If "InferenceEngine" provides a separate development package or SDK, be
+[1.822s]   sure it has been installed.
+[1.822s] 
+[1.822s] 
+[1.823s] -- Configuring incomplete, errors occurred!
+[1.823s] See also "/home/joe/cam_test/build/armor_detector/CMakeFiles/CMakeOutput.log".
+[1.823s] See also "/home/joe/cam_test/build/armor_detector/CMakeFiles/CMakeError.log".

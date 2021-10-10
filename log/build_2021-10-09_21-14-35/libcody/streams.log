@@ -1,0 +1,22 @@
+[0.127s] Invoking command in '/home/joe/cam_test/build/libcody': /usr/bin/cmake /home/joe/src/libcody -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/libcody
+[0.223s] -- The CXX compiler identification is GNU 9.3.0
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++
+[0.321s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.322s] -- Detecting CXX compiler ABI info
+[0.421s] -- Detecting CXX compiler ABI info - done
+[0.438s] -- Detecting CXX compile features
+[0.439s] -- Detecting CXX compile features - done
+[2.415s] -- git revision db3d7270b42f-modified 
+[2.420s] -- Performing Test LIBCODY_CXX_HAS_STDLIB_FLAG
+[2.436s] -- Performing Test LIBCODY_CXX_HAS_STDLIB_FLAG - Failed
+[2.437s] -- Performing Test LIBCODY_HAS_NOENFORCE
+[2.489s] -- Performing Test LIBCODY_HAS_NOENFORCE - Success
+[2.489s] -- Performing Test LIBCODY_HAS_NOSTACKPROT
+[2.545s] -- Performing Test LIBCODY_HAS_NOSTACKPROT - Success
+[2.545s] -- Performing Test LIBCODY_HAS_NOTHREADSAFESTATICS
+[2.610s] -- Performing Test LIBCODY_HAS_NOTHREADSAFESTATICS - Success
+[2.610s] -- Performing Test LIBCODY_CXX_W_GZVMA
+[2.666s] -- Performing Test LIBCODY_CXX_W_GZVMA - Success
+[2.667s] -- Configuring done
+[2.677s] -- Generating done
+[2.679s] -- Build files have been written to: /home/joe/cam_test/build/libcody

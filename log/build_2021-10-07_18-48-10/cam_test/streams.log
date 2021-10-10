@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joe/cam_test -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cam_test
+[0.017s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.031s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.139s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.191s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.114s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.146s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.146s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.236s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.269s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.279s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.590s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.627s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[1.627s]   ament_package_xml() package name 'cam_test' in '/package.xml' does not
+[1.627s]   match current PROJECT_NAME 'CAM_TEST'.  You must call project() with the
+[1.627s]   same package name before.
+[1.627s] Call Stack (most recent call first):
+[1.627s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.627s]   CMakeLists.txt:68 (ament_lint_auto_find_test_dependencies)
+[1.627s] 
+[1.627s] 
+[1.628s] -- Configuring incomplete, errors occurred!
+[1.628s] See also "/home/joe/cam_test/build/cam_test/CMakeFiles/CMakeOutput.log".
+[1.628s] See also "/home/joe/cam_test/build/cam_test/CMakeFiles/CMakeError.log".
+[1.636s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joe/cam_test -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cam_test

@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.001787] (cam_test) JobQueued: {'identifier': 'cam_test', 'dependencies': OrderedDict()}
+[0.001855] (cam_test) JobStarted: {'identifier': 'cam_test'}
+[0.013248] (cam_test) JobProgress: {'identifier': 'cam_test', 'progress': 'cmake'}
+[0.014555] (cam_test) JobProgress: {'identifier': 'cam_test', 'progress': 'build'}
+[0.016306] (cam_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joe/cam_test/build/cam_test', '--', '-j12', '-l12'], 'cwd': '/home/joe/cam_test/build/cam_test', 'env': OrderedDict([('USER', 'joe'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joe'), ('OLDPWD', '/home/joe'), ('LESS', '-R'), ('ZSH', '/home/joe/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/joe/cam_test/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joe'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('NAME', 'LAPTOP-K888OCOC'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/stan/AppData/Local/Microsoft/WindowsApps:/mnt/c/vscode/Microsoft VS Code/bin'), ('WT_SESSION', '6bde64ef-e6ff-4688-8cae-2bb725f01482'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/joe/cam_test/build/cam_test'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.064233] (cam_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cam_test\x1b[0m\n'}
+[0.079586] (cam_test) StdoutLine: {'line': b'[ 50%] Built target armor_detector_node\n'}
+[0.087390] (cam_test) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o\x1b[0m\n'}
+[0.097506] (-) TimerEvent: {}
+[0.198093] (-) TimerEvent: {}
+[0.298876] (-) TimerEvent: {}
+[0.399623] (-) TimerEvent: {}
+[0.500265] (-) TimerEvent: {}
+[0.601221] (-) TimerEvent: {}
+[0.701939] (-) TimerEvent: {}
+[0.755093] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:14:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected class-name before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.756000] (cam_test) StderrLine: {'line': b'   14 | class cam_pub : public rclcpp::Node\x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[0.756284] (cam_test) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.756937] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:16:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[0.757215] (cam_test) StderrLine: {'line': b'   16 |     MinimalPublisher(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[0.757342] (cam_test) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.757437] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:130:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimerBase\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.757527] (cam_test) StderrLine: {'line': b'  130 |     rclcpp::\x1b[01;31m\x1b[KTimerBase\x1b[m\x1b[K::SharedPtr timer_;\n'}
+[0.757605] (cam_test) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.757723] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:131:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPublisher\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[0.757925] (cam_test) StderrLine: {'line': b'  131 |     rclcpp::\x1b[01;31m\x1b[KPublisher\x1b[m\x1b[K<std_msgs::msg::Image>::SharedPtr publisher_;\n'}
+[0.758032] (cam_test) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.758102] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:134:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[0.758182] (cam_test) StderrLine: {'line': b'  134 | }\n'}
+[0.758260] (cam_test) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.758344] (cam_test) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[0.758420] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint cam_pub::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.758508] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:17:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[0.758590] (cam_test) StderrLine: {'line': b'   17 |     : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("cam_pub"), count_(0)\n'}
+[0.758659] (cam_test) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.758738] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:17:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[Kcam_pub\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.760854] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:19:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.761189] (cam_test) StderrLine: {'line': b'   19 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<sensor_msgs::msg::Image>("image_pub", 10);\n'}
+[0.761307] (cam_test) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.761378] (cam_test) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[0.761449] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:19:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass cam_pub\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcreate_publisher\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.761525] (cam_test) StderrLine: {'line': b'   19 |       publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher\x1b[m\x1b[K<sensor_msgs::msg::Image>("image_pub", 10);\n'}
+[0.761598] (cam_test) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.761664] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:19:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.761760] (cam_test) StderrLine: {'line': b'   19 |       publisher_ = this->create_publisher<sensor_msgs::msg::Image\x1b[01;31m\x1b[K>\x1b[m\x1b[K("image_pub", 10);\n'}
+[0.761857] (cam_test) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.762083] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:19:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[0.762203] (cam_test) StderrLine: {'line': b'   19 |       publisher_ = this->create_publisher<sensor_msgs::msg::Image>(\x1b[01;35m\x1b[K"image_pub"\x1b[m\x1b[K, 10);\n'}
+[0.762294] (cam_test) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.763288] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:20:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.763531] (cam_test) StderrLine: {'line': b'   20 |       \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(\n'}
+[0.763630] (cam_test) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.763725] (cam_test) StderrLine: {'line': b'      |       \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[0.763797] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:20:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass cam_pub\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcreate_wall_timer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.763867] (cam_test) StderrLine: {'line': b'   20 |       timer_ = this->\x1b[01;31m\x1b[Kcreate_wall_timer\x1b[m\x1b[K(\n'}
+[0.763933] (cam_test) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.764010] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:21:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""ms\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.764078] (cam_test) StderrLine: {'line': b'   21 |       \x1b[01;31m\x1b[K500ms\x1b[m\x1b[K, std::bind(&cam_pub::timer_callback, this));\n'}
+[0.764170] (cam_test) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.772318] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:22:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[0.772763] (cam_test) StderrLine: {'line': b'   22 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[0.772879] (cam_test) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.780899] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid cam_pub::imageProducer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.781357] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:41:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS_ERROR_NAMED\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.781537] (cam_test) StderrLine: {'line': b'   41 |             \x1b[01;31m\x1b[KROS_ERROR_NAMED\x1b[m\x1b[K("capture", "m capture error, state=%d", iStatus);\n'}
+[0.781623] (cam_test) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.786372] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:46:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS_ERROR_NAMED\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.786814] (cam_test) StderrLine: {'line': b'   46 |             \x1b[01;31m\x1b[KROS_ERROR_NAMED\x1b[m\x1b[K("capture", "not connect capture");\n'}
+[0.787016] (cam_test) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.791421] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:54:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS_ERROR_NAMED\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.791736] (cam_test) StderrLine: {'line': b'   54 |             \x1b[01;31m\x1b[KROS_ERROR_NAMED\x1b[m\x1b[K("capture", "capture init fail, state=%d", iStatus);\n'}
+[0.791805] (cam_test) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.791862] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:62:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCameraParam\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.791915] (cam_test) StderrLine: {'line': b'   62 |         CameraSetExposureTime(hCamera, \x1b[01;31m\x1b[KCameraParam\x1b[m\x1b[K::exposure);\n'}
+[0.791979] (cam_test) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.794408] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:106:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImagePtr\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.794548] (cam_test) StderrLine: {'line': b'  106 |                  sensor_msgs::\x1b[01;31m\x1b[KImagePtr\x1b[m\x1b[K msg;\n'}
+[0.794611] (cam_test) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.802144] (-) TimerEvent: {}
+[0.804453] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:110:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kshow_image_publisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.804706] (cam_test) StderrLine: {'line': b'  110 |                  \x1b[01;31m\x1b[Kshow_image_publisher_\x1b[m\x1b[K.publish(msg);\n'}
+[0.805020] (cam_test) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.813147] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:115:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_framesbuffer\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.813450] (cam_test) StderrLine: {'line': b'  115 |                  \x1b[01;31m\x1b[K_framesbuffer\x1b[m\x1b[K.push(\n'}
+[0.813583] (cam_test) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.815507] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:116:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFrame\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.815671] (cam_test) StderrLine: {'line': b'  116 |                         \x1b[01;31m\x1b[KFrame\x1b[m\x1b[K{startTime, timeStamp, CameraTimeStamp, vision_pitch, vision_yaw, outputImage});\n'}
+[0.815737] (cam_test) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.815799] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:86:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KtimeStamp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.815934] (cam_test) StderrLine: {'line': b'   86 |                 double \x1b[01;35m\x1b[KtimeStamp\x1b[m\x1b[K = (static_cast<std::chrono::duration<double, std::milli>>(\n'}
+[0.816024] (cam_test) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.902606] (-) TimerEvent: {}
+[0.992524] (cam_test) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1\n'}
+[0.993444] (cam_test) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2\n'}
+[0.994008] (cam_test) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[0.997081] (cam_test) CommandEnded: {'returncode': 2}
+[1.002976] (-) TimerEvent: {}
+[1.045723] (cam_test) JobEnded: {'identifier': 'cam_test', 'rc': 2}
+[1.056921] (-) EventReactorShutdown: {}

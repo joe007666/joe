@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000264] (cam_test) JobQueued: {'identifier': 'cam_test', 'dependencies': OrderedDict()}
+[0.002339] (cam_test) JobStarted: {'identifier': 'cam_test'}
+[0.015877] (cam_test) JobProgress: {'identifier': 'cam_test', 'progress': 'cmake'}
+[0.019962] (cam_test) JobProgress: {'identifier': 'cam_test', 'progress': 'build'}
+[0.020261] (cam_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joe/cam_test/build/cam_test', '--', '-j12', '-l12'], 'cwd': '/home/joe/cam_test/build/cam_test', 'env': OrderedDict([('USER', 'joe'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('SHLVL', '1'), ('HOME', '/home/joe'), ('OLDPWD', '/home/joe'), ('LESS', '-R'), ('ZSH', '/home/joe/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('LOGNAME', 'joe'), ('WSL_INTEROP', '/run/WSL/7676_interop'), ('NAME', 'LAPTOP-K888OCOC'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/stan/AppData/Local/Microsoft/WindowsApps:/mnt/c/vscode/Microsoft VS Code/bin'), ('WT_SESSION', 'a078d9c9-f85e-47f2-b111-385e783db720'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/joe/cam_test/build/cam_test'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.061983] (cam_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cam_test\x1b[0m\n'}
+[0.083459] (cam_test) StdoutLine: {'line': b'[ 50%] Built target armor_detector_node\n'}
+[0.094363] (cam_test) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o\x1b[0m\n'}
+[0.099796] (-) TimerEvent: {}
+[0.200622] (-) TimerEvent: {}
+[0.205797] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunterminated #ifndef\n'}
+[0.206266] (cam_test) StderrLine: {'line': b'    1 | #ifndef IMAGE_TRANSPORT_H\n'}
+[0.206653] (cam_test) StderrLine: {'line': b'      | \n'}
+[0.206916] (cam_test) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:5\x1b[m\x1b[K:\n'}
+[0.207052] (cam_test) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\n"}
+[0.207186] (cam_test) StderrLine: {'line': b'   41 | #pragma message ("Warning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[0.207310] (cam_test) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.300903] (-) TimerEvent: {}
+[0.401720] (-) TimerEvent: {}
+[0.502620] (-) TimerEvent: {}
+[0.603216] (-) TimerEvent: {}
+[0.703974] (-) TimerEvent: {}
+[0.804583] (-) TimerEvent: {}
+[0.905444] (-) TimerEvent: {}
+[1.006003] (-) TimerEvent: {}
+[1.106663] (-) TimerEvent: {}
+[1.207430] (-) TimerEvent: {}
+[1.308261] (-) TimerEvent: {}
+[1.406756] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:40:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kshow_image_publisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.407063] (cam_test) StderrLine: {'line': b'   40 |   \x1b[01;31m\x1b[Kshow_image_publisher_\x1b[m\x1b[K = image_transport::create_publisher(this, "show_image");\n'}
+[1.407130] (cam_test) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.407196] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:140:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knon-static data member declared with placeholder \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.407256] (cam_test) StderrLine: {'line': b'  140 |                      \x1b[01;31m\x1b[Kauto\x1b[m\x1b[K show_image_msg = cv_bridge::CvImage(img_msg_raw->header, "rgb8", originImage).toImageMsg();\n'}
+[1.407315] (cam_test) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.408512] (-) TimerEvent: {}
+[1.413024] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:141:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kshow_image_publisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.413238] (cam_test) StderrLine: {'line': b'  141 |                      \x1b[01;31m\x1b[Kshow_image_publisher_\x1b[m\x1b[K.publish(show_image_msg);\n'}
+[1.413312] (cam_test) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.434823] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::imageProducer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.435080] (cam_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/cam_test/src/cam_pub.cpp:104:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KtimeStamp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.435158] (cam_test) StderrLine: {'line': b'  104 |                 double \x1b[01;35m\x1b[KtimeStamp\x1b[m\x1b[K = (static_cast<std::chrono::duration<double, std::milli>>(\n'}
+[1.435232] (cam_test) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.508875] (-) TimerEvent: {}
+[1.609680] (-) TimerEvent: {}
+[1.710312] (-) TimerEvent: {}
+[1.811202] (-) TimerEvent: {}
+[1.911877] (-) TimerEvent: {}
+[2.012646] (-) TimerEvent: {}
+[2.113329] (-) TimerEvent: {}
+[2.153564] (cam_test) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1\n'}
+[2.154297] (cam_test) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2\n'}
+[2.155320] (cam_test) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.160563] (cam_test) CommandEnded: {'returncode': 2}
+[2.201600] (cam_test) JobEnded: {'identifier': 'cam_test', 'rc': 2}
+[2.213001] (-) EventReactorShutdown: {}

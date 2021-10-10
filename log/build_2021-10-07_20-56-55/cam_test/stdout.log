@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target cam_test[0m
+[ 75%] Built target armor_detector_node
+[ 75%] [32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o[0m

@@ -1,0 +1,13 @@
+prefix=/home/joe/cam_test/install/zlib
+exec_prefix=/home/joe/cam_test/install/zlib
+libdir=/home/joe/cam_test/install/zlib/lib
+sharedlibdir=/home/joe/cam_test/install/zlib/lib
+includedir=/home/joe/cam_test/install/zlib/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

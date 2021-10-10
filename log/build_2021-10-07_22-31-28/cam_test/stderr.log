@@ -1,0 +1,5 @@
+CMake Error at cmake_install.cmake:88 (file):
+  file INSTALL cannot find "/home/joe/cam_test/launch": No such file or
+  directory.
+
+

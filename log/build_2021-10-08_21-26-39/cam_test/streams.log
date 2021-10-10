@@ -1,0 +1,43 @@
+[0.025s] Invoking command in '/home/joe/cam_test/build/cam_test': /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.065s] [35m[1mScanning dependencies of target cam_test[0m
+[0.082s] [ 50%] Built target armor_detector_node
+[0.099s] [ 75%] [32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o[0m
+[1.584s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::imageProducer()[m[K’:
+[1.584s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:97:26:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KCameraTimeStamp[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[1.584s]    97 |                 uint64_t [01;35m[KCameraTimeStamp[m[K;
+[1.585s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[1.585s] [01m[K/home/joe/cam_test/src/cam_pub.cpp:99:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtimeStamp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.585s]    99 |                 double [01;35m[KtimeStamp[m[K = (static_cast<std::chrono::duration<double, std::milli>>(
+[1.585s]       |                        [01;35m[K^~~~~~~~~[m[K
+[2.370s] [100%] [32m[1mLinking CXX shared library libcam_test.so[0m
+[2.823s] [100%] Built target cam_test
+[2.836s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '0': /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[2.879s] Invoking command in '/home/joe/cam_test/build/cam_test': /usr/bin/cmake --install /home/joe/cam_test/build/cam_test
+[2.892s] -- Install configuration: ""
+[2.893s] -- Up-to-date: /home/joe/cam_test/install/cam_test/lib/cam_test/armor_detector_node
+[2.894s] -- Installing: /home/joe/cam_test/install/cam_test/lib/libcam_test.so
+[2.895s] -- Set runtime path of "/home/joe/cam_test/install/cam_test/lib/libcam_test.so" to ""
+[2.895s] -- Up-to-date: /home/joe/cam_test/install/cam_test/include
+[2.895s] -- Up-to-date: /home/joe/cam_test/install/cam_test/include/CameraDefine.h
+[2.896s] -- Up-to-date: /home/joe/cam_test/install/cam_test/include/CameraStatus.h
+[2.896s] -- Up-to-date: /home/joe/cam_test/install/cam_test/include/CameraApi.h
+[2.896s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/launch
+[2.896s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/config
+[2.896s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/model
+[2.896s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/package_run_dependencies/cam_test
+[2.896s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/parent_prefix_path/cam_test
+[2.896s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/environment/ament_prefix_path.sh
+[2.896s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/environment/ament_prefix_path.dsv
+[2.897s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/environment/path.sh
+[2.897s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/environment/path.dsv
+[2.897s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.bash
+[2.898s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.sh
+[2.901s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.zsh
+[2.901s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.dsv
+[2.902s] -- Installing: /home/joe/cam_test/install/cam_test/share/cam_test/package.dsv
+[2.902s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/packages/cam_test
+[2.902s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/rclcpp_components/cam_test
+[2.902s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/cmake/cam_testConfig.cmake
+[2.902s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/cmake/cam_testConfig-version.cmake
+[2.902s] -- Up-to-date: /home/joe/cam_test/install/cam_test/share/cam_test/package.xml
+[2.902s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '0': /usr/bin/cmake --install /home/joe/cam_test/build/cam_test

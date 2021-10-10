@@ -1,0 +1,1 @@
+Invoking command in '/home/joe/cam_test/build/libcody': /usr/bin/cmake /home/joe/src/libcody -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/libcody

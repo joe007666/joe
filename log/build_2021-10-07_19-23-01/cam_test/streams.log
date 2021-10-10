@@ -1,0 +1,13 @@
+[0.010s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.037s] [35m[1mScanning dependencies of target cam_test[0m
+[0.049s] [ 50%] Built target armor_detector_node
+[0.052s] [ 75%] [32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o[0m
+[0.057s] In file included from [01m[K/home/joe/cam_test/src/cam_pub.cpp:1[m[K:
+[0.057s] [01m[K/home/joe/cam_test/include/CameraApi.h:11:10:[m[K [01;31m[Kfatal error: [m[KCameraDefine.h: No such file or directory
+[0.057s]    11 | #include [01;31m[K"CameraDefine.h"[m[K
+[0.057s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.057s] compilation terminated.
+[0.058s] make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1
+[0.058s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2
+[0.058s] make: *** [Makefile:141: all] Error 2
+[0.060s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12

@@ -1,0 +1,2 @@
+Invoking command in '/home/joe/cam_test/build/extra_tool': /usr/bin/cmake /home/joe/rm_ros/rm_ros/src/extra_tool -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/extra_tool
+Invoked command in '/home/joe/cam_test/build/extra_tool' returned '1': /usr/bin/cmake /home/joe/rm_ros/rm_ros/src/extra_tool -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/extra_tool

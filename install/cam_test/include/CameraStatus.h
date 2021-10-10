@@ -1,0 +1,1 @@
+/home/joe/cam_test/include/CameraStatus.h

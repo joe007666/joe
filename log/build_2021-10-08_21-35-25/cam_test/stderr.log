@@ -1,0 +1,7 @@
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::imageProducer()[m[K’:
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:97:26:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KCameraTimeStamp[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   97 |                 uint64_t [01;35m[KCameraTimeStamp[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:39:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KstartTime[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   39 |     auto [01;35m[KstartTime[m[K = std::chrono::high_resolution_clock::now();
+      |          [01;35m[K^~~~~~~~~[m[K

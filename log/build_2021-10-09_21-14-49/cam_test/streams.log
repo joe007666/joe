@@ -1,0 +1,69 @@
+[0.013s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/joe/cam_test -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cam_test
+[0.020s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.036s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.145s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.150s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.203s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.163s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.164s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.254s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.290s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.300s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.631s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.695s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.744s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.744s] -- Configured cppcheck include dirs: /home/joe/cam_test/include
+[1.744s] -- Configured cppcheck exclude dirs and/or files: 
+[1.793s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.793s] -- Configured cpplint exclude dirs and/or files: 
+[1.800s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.813s] -- Added test 'lint_cmake' to check CMake code style
+[1.819s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.868s] -- Added test 'uncrustify' to check C / C++ code style
+[1.868s] -- Configured uncrustify additional arguments: 
+[1.874s] -- Added test 'xmllint' to check XML markup files
+[1.876s] -- Configuring done
+[1.905s] -- Generating done
+[1.907s] -- Build files have been written to: /home/joe/cam_test/build/cam_test
+[1.915s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/joe/cam_test -DCMAKE_INSTALL_PREFIX=/home/joe/cam_test/install/cam_test
+[1.918s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[1.947s] [35m[1mScanning dependencies of target cam_test[0m
+[1.947s] [35m[1mScanning dependencies of target cam_pub[0m
+[1.955s] [ 16%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o[0m
+[1.971s] [ 33%] [32mBuilding CXX object CMakeFiles/cam_pub.dir/src/cam_pub.cpp.o[0m
+[1.973s] [ 50%] [32mBuilding CXX object CMakeFiles/cam_test.dir/src/cam_pub.cpp.o[0m
+[4.666s] [ 66%] [32m[1mLinking CXX executable armor_detector_node[0m
+[4.797s] [ 66%] Built target armor_detector_node
+[6.921s] [ 83%] [32m[1mLinking CXX executable cam_pub[0m
+[6.960s] [100%] [32m[1mLinking CXX shared library libcam_test.so[0m
+[7.104s] [100%] Built target cam_pub
+[7.129s] [100%] Built target cam_test
+[7.139s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[7.163s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/joe/cam_test/build/cam_test
+[7.168s] -- Install configuration: "RelWithDebInfo"
+[7.168s] -- Execute custom install script
+[7.168s] -- Symlinking: /home/joe/cam_test/install/cam_test/lib/cam_test/armor_detector_node
+[7.175s] -- Symlinking: /home/joe/cam_test/install/cam_test/lib/libcam_test.so
+[7.181s] -- Symlinking: /home/joe/cam_test/install/cam_test/include/CameraApi.h
+[7.187s] -- Symlinking: /home/joe/cam_test/install/cam_test/include/CameraDefine.h
+[7.193s] -- Symlinking: /home/joe/cam_test/install/cam_test/include/CameraStatus.h
+[7.199s] -- Symlinking: /home/joe/cam_test/install/cam_test/lib/cam_test/cam_pub
+[7.205s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/package_run_dependencies/cam_test
+[7.211s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/parent_prefix_path/cam_test
+[7.216s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/environment/ament_prefix_path.sh
+[7.222s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/environment/ament_prefix_path.dsv
+[7.228s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/environment/path.sh
+[7.234s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/environment/path.dsv
+[7.240s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.bash
+[7.246s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.sh
+[7.252s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.zsh
+[7.259s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.dsv
+[7.265s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/package.dsv
+[7.271s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/packages/cam_test
+[7.276s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/rclcpp_components/cam_test
+[7.282s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/cmake/cam_testConfig.cmake
+[7.287s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/cmake/cam_testConfig-version.cmake
+[7.293s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/package.xml
+[7.300s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/joe/cam_test/build/cam_test

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcody.a  CMakeFiles/cody.dir/buffer.cc.o CMakeFiles/cody.dir/client.cc.o CMakeFiles/cody.dir/fatal.cc.o CMakeFiles/cody.dir/netclient.cc.o CMakeFiles/cody.dir/netserver.cc.o CMakeFiles/cody.dir/resolver.cc.o CMakeFiles/cody.dir/packet.cc.o CMakeFiles/cody.dir/server.cc.o
+/usr/bin/ranlib libcody.a

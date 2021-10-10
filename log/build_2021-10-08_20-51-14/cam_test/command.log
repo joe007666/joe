@@ -1,0 +1,2 @@
+Invoking command in '/home/joe/cam_test/build/cam_test': /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+Invoked command in '/home/joe/cam_test/build/cam_test' returned '2': /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12

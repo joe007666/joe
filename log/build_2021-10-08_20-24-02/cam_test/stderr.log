@@ -1,0 +1,16 @@
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:36:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kshow_image_publisher_[m[K’ does not name a type
+   36 |   [01;31m[Kshow_image_publisher_[m[K = image_transport::create_publisher(this, "show_image");
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:136:22:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+  136 |                      [01;31m[Kauto[m[K show_image_msg = cv_bridge::CvImage(img_msg_raw->header, "rgb8", originImage).toImageMsg();
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:137:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kshow_image_publisher_[m[K’ does not name a type
+  137 |                      [01;31m[Kshow_image_publisher_[m[K.publish(show_image_msg);
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::imageProducer()[m[K’:
+[01m[K/home/joe/cam_test/src/cam_pub.cpp:100:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtimeStamp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  100 |                 double [01;35m[KtimeStamp[m[K = (static_cast<std::chrono::duration<double, std::milli>>(
+      |                        [01;35m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cam_test.dir/build.make:63: CMakeFiles/cam_test.dir/src/cam_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cam_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
