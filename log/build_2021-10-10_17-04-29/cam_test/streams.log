@@ -1,0 +1,30 @@
+[0.021s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.081s] [ 33%] Built target armor_detector_node
+[0.086s] [ 66%] Built target cam_pub
+[0.087s] [100%] Built target cam_test
+[0.099s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/joe/cam_test/build/cam_test -- -j12 -l12
+[0.148s] Invoking command in '/home/joe/cam_test/build/cam_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/joe/cam_test/build/cam_test
+[0.155s] -- Install configuration: "RelWithDebInfo"
+[0.155s] -- Execute custom install script
+[0.156s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/lib/cam_test/armor_detector_node
+[0.157s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/lib/libcam_test.so
+[0.157s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/include/CameraApi.h
+[0.157s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/include/CameraDefine.h
+[0.157s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/include/CameraStatus.h
+[0.158s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/package_run_dependencies/cam_test
+[0.158s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/parent_prefix_path/cam_test
+[0.159s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/environment/ament_prefix_path.sh
+[0.159s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/environment/ament_prefix_path.dsv
+[0.159s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/environment/path.sh
+[0.159s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/environment/path.dsv
+[0.160s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.bash
+[0.160s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.sh
+[0.160s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.zsh
+[0.160s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/local_setup.dsv
+[0.161s] -- Symlinking: /home/joe/cam_test/install/cam_test/share/cam_test/package.dsv
+[0.169s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/packages/cam_test
+[0.169s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/ament_index/resource_index/rclcpp_components/cam_test
+[0.170s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/cmake/cam_testConfig.cmake
+[0.171s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/cmake/cam_testConfig-version.cmake
+[0.171s] -- Up-to-date symlink: /home/joe/cam_test/install/cam_test/share/cam_test/package.xml
+[0.176s] Invoked command in '/home/joe/cam_test/build/cam_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/joe/cam_test/build/cam_test
